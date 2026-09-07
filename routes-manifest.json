@@ -98,9 +98,9 @@
   {
     "route": "/mobile-app-development",
     "file": "mobile-app-development/index.html",
-    "title": "მობილური აპლიკაციის შექმნა — iOS და Android | webandapp",
+    "title": "მობილური აპლიკაციის შექმნა და დამზადება — iOS და Android | webandapp",
     "description": "მობილური აპლიკაციების შექმნა iOS და Android პლატფორმებისთვის: MVP, დიზაინი, სერვერული ნაწილი და გამოქვეყნების მომზადება.",
-    "h1": "მობილური აპლიკაციების შექმნა",
+    "h1": "მობილური აპლიკაციის შექმნა და დამზადება",
     "lang": "ka",
     "slug": "mobile-app-development",
     "noindex": true,
@@ -192,7 +192,7 @@
   {
     "route": "/prices",
     "file": "prices/index.html",
-    "title": "ფასები | webandapp",
+    "title": "საიტის დამზადების ფასი და აპლიკაციის ღირებულება | webandapp",
     "description": "აირჩიეთ ფორმატი. ზუსტი ღირებულება განისაზღვრება ფუნქციების, დიზაინისა და სამუშაოს მოცულობის შეთანხმების შემდეგ.",
     "h1": "ფასები",
     "lang": "ka",
@@ -200,7 +200,8 @@
     "noindex": true,
     "schemas": [
       "WebPage",
-      "BreadcrumbList"
+      "BreadcrumbList",
+      "FAQPage"
     ]
   },
   {
@@ -542,7 +543,7 @@
   {
     "route": "/en/prices",
     "file": "en/prices/index.html",
-    "title": "Pricing | webandapp",
+    "title": "Website development cost and app pricing | webandapp",
     "description": "Choose a project format. A final quote follows agreement on functionality, design and scope.",
     "h1": "Pricing",
     "lang": "en",
@@ -550,7 +551,8 @@
     "noindex": true,
     "schemas": [
       "WebPage",
-      "BreadcrumbList"
+      "BreadcrumbList",
+      "FAQPage"
     ]
   },
   {
@@ -892,7 +894,7 @@
   {
     "route": "/ru/prices",
     "file": "ru/prices/index.html",
-    "title": "Стоимость | webandapp",
+    "title": "Стоимость разработки сайта и создания приложения | webandapp",
     "description": "Выберите формат проекта. Точная цена определяется после согласования функций, дизайна и объёма работ.",
     "h1": "Стоимость",
     "lang": "ru",
@@ -900,7 +902,8 @@
     "noindex": true,
     "schemas": [
       "WebPage",
-      "BreadcrumbList"
+      "BreadcrumbList",
+      "FAQPage"
     ]
   },
   {
