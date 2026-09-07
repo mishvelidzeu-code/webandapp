@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {chromium} from 'playwright';
 import AxeBuilder from '@axe-core/playwright';
-import {createApp} from '../server.mjs';
+import {createApp} from '../scripts/dev-server.mjs';
 const chrome='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
 let server,browser,base;
 test.before(async()=>{server=await createApp({origin:'http://127.0.0.1'});await new Promise(r=>server.listen(0,'127.0.0.1',r));base=`http://127.0.0.1:${server.address().port}`;browser=await chromium.launch({headless:true,executablePath:chrome,args:['--no-first-run']});});

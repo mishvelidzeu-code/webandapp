@@ -1,5 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "cleanUrls": true,
@@ -13,11 +14,11 @@
   },
   "redirects": [
     {
-      "source": "/:path*",
+      "source": "/(.*)",
       "has": [
         { "type": "host", "value": "www.webandapp.ge" }
       ],
-      "destination": "https://webandapp.ge/:path*",
+      "destination": "https://webandapp.ge/$1",
       "permanent": true
     },
     {

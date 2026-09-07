@@ -8,7 +8,7 @@
 
 ```powershell
 npm install
-npm start
+npm run dev
 ```
 
 შემდეგ გახსენით `http://127.0.0.1:4173/`.
@@ -25,7 +25,7 @@ npm start
 ```powershell
 $env:SITE_PUBLISHED='true'
 npm run build
-npm start
+npm run dev
 ```
 
 ნაგულისხმევად პროექტი draft რეჟიმშია და საძიებო ინდექსაციას ბლოკავს. ეს საჭიროა, სანამ დომენი, ფორმის გაგზავნა და სამართლებრივი ინფორმაცია მზად არ არის.

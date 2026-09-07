@@ -5,11 +5,14 @@ import { gzipSync } from 'node:zlib';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import config from './site.config.mjs';
-import { createToken, createLeadHandler } from './src/leads.mjs';
-import { ui } from './src/ui.mjs';
+import config from '../site.config.mjs';
+import { createToken, createLeadHandler } from '../src/leads.mjs';
+import { ui } from '../src/ui.mjs';
 
-const root = path.dirname(fileURLToPath(import.meta.url));
+const root = path.resolve(
+  path.dirname(fileURLToPath(import.meta.url)),
+  '..'
+);
 
 const mime = {
   '.css': 'text/css',

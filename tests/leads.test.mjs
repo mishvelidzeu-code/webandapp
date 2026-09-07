@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {createToken,validToken,validateLead} from '../src/leads.mjs';
-import {createApp} from '../server.mjs';
+import {createApp} from '../scripts/dev-server.mjs';
 const valid={name:'ნიკა ტესტი',phone:'+995 599 11 22 33',email:'test@example.com',service:'website-development',message:'გვჭირდება ბიზნესის ახალი ვებსაიტი.',budget:'1',deadline:'1',lang:'ka',consent:'yes',company_website:''};
 test('CSRF token has a short lifetime and minimum form time',()=>{const secret='a'.repeat(64),now=Date.now(),token=createToken(secret,now-2000);assert.equal(validToken(token,secret,now),true);assert.equal(validToken(createToken(secret,now),secret,now),false);assert.equal(validToken(token+'x',secret,now),false);});
 test('lead validation accepts a real request and rejects spam or malformed data',()=>{assert.equal(validateLead(valid).error,undefined);assert.equal(validateLead({...valid,company_website:'spam.test'}).error,'spam');assert.equal(validateLead({...valid,email:'a@b\nBcc:x@y.test'}).error,'email');assert.equal(validateLead({...valid,service:'unknown'}).error,'required');assert.equal(validateLead({...valid,message:'short'}).error,'required');});
