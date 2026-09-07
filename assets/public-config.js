@@ -1,0 +1,1 @@
+window.WEBANDAPP_CONFIG={"analytics":{"ga4":"","gtm":"","clarity":"","searchConsole":""},"published":false,"phone":"+995599308414","phoneDisplay":"+995 599 30 84 14"};

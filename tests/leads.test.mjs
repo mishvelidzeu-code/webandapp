@@ -1,0 +1,13 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {createToken,validToken,validateLead} from '../src/leads.mjs';
+import {createApp} from '../server.mjs';
+const valid={name:'ნიკა ტესტი',phone:'+995 599 11 22 33',email:'test@example.com',service:'website-development',message:'გვჭირდება ბიზნესის ახალი ვებსაიტი.',budget:'1',deadline:'1',lang:'ka',consent:'yes',company_website:''};
+test('CSRF token has a short lifetime and minimum form time',()=>{const secret='a'.repeat(64),now=Date.now(),token=createToken(secret,now-2000);assert.equal(validToken(token,secret,now),true);assert.equal(validToken(createToken(secret,now),secret,now),false);assert.equal(validToken(token+'x',secret,now),false);});
+test('lead validation accepts a real request and rejects spam or malformed data',()=>{assert.equal(validateLead(valid).error,undefined);assert.equal(validateLead({...valid,company_website:'spam.test'}).error,'spam');assert.equal(validateLead({...valid,email:'a@b\nBcc:x@y.test'}).error,'email');assert.equal(validateLead({...valid,service:'unknown'}).error,'required');assert.equal(validateLead({...valid,message:'short'}).error,'required');});
+test('server confirms only successful mail delivery and deduplicates retries',async t=>{let sent=0;const server=await createApp({origin:'http://127.0.0.1',sendMail:async()=>{sent++;}});await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));t.after(()=>server.close());const base=`http://127.0.0.1:${server.address().port}`;
+ const c=await fetch(base+'/api/form-config',{headers:{Origin:'http://127.0.0.1'}});assert.equal(c.status,200);const {token}=await c.json(),cookie=c.headers.get('set-cookie').split(';')[0];await new Promise(r=>setTimeout(r,1550));
+ const headers={Origin:'http://127.0.0.1','Content-Type':'application/json','X-CSRF-Token':token,'Idempotency-Key':'12345678-1234-1234-1234-123456789012',Cookie:cookie};
+ const first=await fetch(base+'/api/leads',{method:'POST',headers,body:JSON.stringify(valid)});assert.equal(first.status,200);assert.equal((await first.json()).ok,true);
+ const repeat=await fetch(base+'/api/leads',{method:'POST',headers,body:JSON.stringify(valid)});assert.equal(repeat.status,200);assert.equal(sent,1);
+});

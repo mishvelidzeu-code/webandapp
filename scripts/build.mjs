@@ -1,0 +1,23 @@
+import {mkdir,writeFile,readFile} from 'node:fs/promises';
+import path from 'node:path';
+import config from '../site.config.mjs';
+import {services} from '../src/services.mjs';
+import {articles} from '../src/articles.mjs';
+import {renderPage,escape} from '../src/render.mjs';
+const root=path.resolve(import.meta.dirname,'..');
+const slugs=['',...services.map(x=>x.slug),'portfolio','prices','about','blog','faq','contact','privacy-policy','terms',...articles.map(a=>'blog/'+a.slug),'404'];
+export const pages=[];
+for(const lang of ['ka','en','ru'])for(const slug of slugs){const page=renderPage(slug,lang);await mkdir(path.dirname(path.join(root,page.file)),{recursive:true});await writeFile(path.join(root,page.file),page.html);pages.push(page);}
+await writeFile(path.join(root,'404.html'),pages.find(p=>p.slug==='404'&&p.lang==='ka').html.replaceAll('../assets/','assets/').replaceAll('../index.html','index.html'));
+await writeFile(path.join(root,'assets/public-config.js'),'window.WEBANDAPP_CONFIG='+JSON.stringify({analytics:config.analytics,published:config.published,phone:config.phone,phoneDisplay:config.phoneDisplay})+';');
+await writeFile(path.join(root,'assets/site.webmanifest'),JSON.stringify({name:'webandapp',short_name:'webandapp',start_url:'../',display:'browser',background_color:'#f7f8f5',theme_color:'#171b19',icons:[{src:'icon-192.png',sizes:'192x192',type:'image/png'},{src:'icon-512.png',sizes:'512x512',type:'image/png'}]}));
+const canonicalPages=pages.filter(p=>!['404','portfolio','privacy-policy','terms'].includes(p.slug));
+await writeFile(path.join(root,'sitemap.xml'),'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+canonicalPages.map(p=>`<url><loc>${config.origin+p.route}</loc></url>`).join('\n')+'\n</urlset>\n');
+await writeFile(path.join(root,'robots.txt'),`User-agent: *\n${config.published?'Allow: /\nDisallow: /api/\nDisallow: /docs/\nDisallow: /reports/':'Disallow: /'}\nSitemap: ${config.origin}/sitemap.xml\n`);
+await mkdir(path.join(root,'docs'),{recursive:true});
+const csv=rows=>'\uFEFF'+rows.map(row=>row.map(v=>'"'+String(v).replaceAll('"','""')+'"').join(',')).join('\r\n');
+await writeFile(path.join(root,'docs/page-seo.csv'),csv([['URL','Language','Title','Meta description','H1','Indexing','Schema'],...pages.map(p=>[p.route,p.lang,p.title,p.description,p.h1,p.noindex?'noindex':'index',p.schemas.join('; ')])]));
+await writeFile(path.join(root,'docs/headings-and-links.md'),'# გვერდების სათაურები და შიდა ბმულები\n\n'+pages.map(p=>`## ${p.route}\n\n${[...p.html.matchAll(/<(h[123])[^>]*>([\s\S]*?)<\/\1>/g)].map(m=>`- ${m[1].toUpperCase()}: ${m[2].replace(/<[^>]+>/g,'')}`).join('\n')}\n\nბმულები: ${[...new Set([...p.html.matchAll(/data-route="([^"]+)"/g)].map(m=>m[1]))].join(', ')}`).join('\n\n'));
+await writeFile(path.join(root,'docs/georgian-copy.md'),'# სრული ქართული ტექსტები\n\n'+pages.filter(p=>p.lang==='ka').map(p=>'## '+p.route+'\n\n'+p.html.match(/<main[^>]*>([\s\S]*?)<\/main>/)[1].replace(/<\/(h[1-6]|p|section|li|summary|details)>/g,'\n\n').replace(/<[^>]+>/g,' ').replace(/ +/g,' ').trim()).join('\n\n'));
+await writeFile(path.join(root,'routes-manifest.json'),JSON.stringify(pages.map(({html,...p})=>p),null,2));
+console.log(`Built ${pages.length} complete HTML pages in Georgian, English and Russian. Publishing: ${config.published}.`);

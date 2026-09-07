@@ -1,0 +1,1052 @@
+[
+  {
+    "route": "/",
+    "file": "index.html",
+    "title": "webandapp — ვებსაიტები და აპლიკაციები ბიზნესისთვის",
+    "description": "იდეიდან პირველ შეკვეთამდე — ვქმნით ვებსაიტებს, ონლაინ მაღაზიებსა და მობილურ აპლიკაციებს ბიზნესებისთვის საქართველოში.",
+    "h1": "ვებსაიტები და აპლიკაციები, რომლებიც ბიზნესს წინსვლაში ეხმარება.",
+    "lang": "ka",
+    "slug": "",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "Organization",
+      "WebSite",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/website-development",
+    "file": "website-development/index.html",
+    "title": "ვებსაიტის დამზადება საქართველოში | webandapp",
+    "description": "ვებსაიტის დამზადება ქართული ბიზნესისთვის: სტრუქტურა, დიზაინი, მობილური ადაპტაცია და ტექნიკური SEO. მოგვწერეთ პროექტის შესაფასებლად.",
+    "h1": "ვებსაიტების დამზადება",
+    "lang": "ka",
+    "slug": "website-development",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/ecommerce-development",
+    "file": "ecommerce-development/index.html",
+    "title": "ონლაინ მაღაზიის შექმნა და დამზადება | webandapp",
+    "description": "ონლაინ მაღაზიის შექმნა: კატალოგი, კალათა, შეკვეთები, გადახდებისა და მიწოდების ინტეგრაციები. დაგეგმეთ თქვენი ინტერნეტ მაღაზია webandapp-თან.",
+    "h1": "ონლაინ მაღაზიის შექმნა",
+    "lang": "ka",
+    "slug": "ecommerce-development",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/wordpress-development",
+    "file": "wordpress-development/index.html",
+    "title": "WordPress საიტის დამზადება | webandapp",
+    "description": "WordPress საიტის დამზადება კონტენტის მოსახერხებელი მართვით. დიზაინი, გამართული სტრუქტურა, საჭირო მოდულები და განახლებების გეგმა.",
+    "h1": "WordPress საიტის დამზადება",
+    "lang": "ka",
+    "slug": "wordpress-development",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/corporate-website",
+    "file": "corporate-website/index.html",
+    "title": "კორპორატიული საიტის შექმნა ბიზნესისთვის | webandapp",
+    "description": "კორპორატიული საიტის შექმნა: მომსახურების გვერდები, კომპანიის ინფორმაცია, კონტენტის მართვა და მრავალენოვანი სტრუქტურა.",
+    "h1": "კორპორატიული საიტის შექმნა",
+    "lang": "ka",
+    "slug": "corporate-website",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/landing-page",
+    "file": "landing-page/index.html",
+    "title": "ლენდინგ გვერდის დამზადება | webandapp",
+    "description": "ლენდინგ გვერდის დამზადება ერთი შეთავაზებისთვის: მკაფიო ტექსტი, მობილური დიზაინი, შეკვეთის ფორმა და შედეგის გაზომვა.",
+    "h1": "Landing Page-ის შექმნა",
+    "lang": "ka",
+    "slug": "landing-page",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/mobile-app-development",
+    "file": "mobile-app-development/index.html",
+    "title": "მობილური აპლიკაციის შექმნა — iOS და Android | webandapp",
+    "description": "მობილური აპლიკაციების შექმნა iOS და Android პლატფორმებისთვის: MVP, დიზაინი, სერვერული ნაწილი და გამოქვეყნების მომზადება.",
+    "h1": "მობილური აპლიკაციების შექმნა",
+    "lang": "ka",
+    "slug": "mobile-app-development",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/custom-software",
+    "file": "custom-software/index.html",
+    "title": "პროგრამული უზრუნველყოფის შექმნა ბიზნესისთვის | webandapp",
+    "description": "ინდივიდუალური პროგრამული უზრუნველყოფა: ბიზნესსისტემები, კლიენტების მართვა, სამუშაო პროცესების ავტომატიზაცია და ინტეგრაციები.",
+    "h1": "ინდივიდუალური პროგრამები",
+    "lang": "ka",
+    "slug": "custom-software",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/ui-ux-design",
+    "file": "ui-ux-design/index.html",
+    "title": "UI/UX დიზაინი საიტებისა და აპლიკაციებისთვის | webandapp",
+    "description": "UI/UX დიზაინი: მომხმარებლის გზები, გვერდების სტრუქტურა, ინტერაქტიული პროტოტიპი და დიზაინის სისტემა ვებსაიტისა თუ აპლიკაციისთვის.",
+    "h1": "UI/UX დიზაინი",
+    "lang": "ka",
+    "slug": "ui-ux-design",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/seo",
+    "file": "seo/index.html",
+    "title": "საიტის SEO ოპტიმიზაცია საქართველოში | webandapp",
+    "description": "საიტის SEO ოპტიმიზაცია: ტექნიკური აუდიტი, საკვანძო სიტყვების განაწილება, ქართული კონტენტი და ორგანული შედეგების გაზომვა.",
+    "h1": "საიტის SEO ოპტიმიზაცია",
+    "lang": "ka",
+    "slug": "seo",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/website-maintenance",
+    "file": "website-maintenance/index.html",
+    "title": "საიტის ტექნიკური მხარდაჭერა და განახლება | webandapp",
+    "description": "ვებსაიტის ტექნიკური მხარდაჭერა: განახლებები, ხარვეზების გამოსწორება, სარეზერვო ასლები და მუშაობის შემოწმება. მოითხოვეთ აუდიტი.",
+    "h1": "საიტის ტექნიკური მხარდაჭერა",
+    "lang": "ka",
+    "slug": "website-maintenance",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/portfolio",
+    "file": "portfolio/index.html",
+    "title": "პორტფოლიო | webandapp",
+    "description": "პროექტების აღწერები დაემატება რეალური მასალებისა და გამოქვეყნების თანხმობის მიღების შემდეგ.",
+    "h1": "პორტფოლიო",
+    "lang": "ka",
+    "slug": "portfolio",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "route": "/prices",
+    "file": "prices/index.html",
+    "title": "ფასები | webandapp",
+    "description": "აირჩიეთ ფორმატი. ზუსტი ღირებულება განისაზღვრება ფუნქციების, დიზაინისა და სამუშაოს მოცულობის შეთანხმების შემდეგ.",
+    "h1": "ფასები",
+    "lang": "ka",
+    "slug": "prices",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "route": "/about",
+    "file": "about/index.html",
+    "title": "ჩვენ შესახებ | webandapp",
+    "description": "ვებსაიტები, აპლიკაციები და ბიზნესსისტემები. იდეის გააზრებიდან ტექნიკურ შესრულებამდე.",
+    "h1": "ჩვენ შესახებ",
+    "lang": "ka",
+    "slug": "about",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "Organization",
+      "WebSite",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "route": "/blog",
+    "file": "blog/index.html",
+    "title": "ბლოგი | webandapp",
+    "description": "პრაქტიკული გზამკვლევები სწორი გადაწყვეტილებისთვის.",
+    "h1": "ბლოგი",
+    "lang": "ka",
+    "slug": "blog",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "route": "/faq",
+    "file": "faq/index.html",
+    "title": "ხშირი კითხვები | webandapp",
+    "description": "აქ არის პასუხები საკითხებზე, რომლებიც პროექტის დაწყებამდე დაგეხმარებათ.",
+    "h1": "ხშირი კითხვები",
+    "lang": "ka",
+    "slug": "faq",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/contact",
+    "file": "contact/index.html",
+    "title": "კონტაქტი | webandapp",
+    "description": "აღწერეთ, რას აკეთებს თქვენი ბიზნესი და რა გსურთ შექმნათ. საჭირო დეტალებს შემდეგ ერთად დავაზუსტებთ.",
+    "h1": "კონტაქტი",
+    "lang": "ka",
+    "slug": "contact",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "route": "/privacy-policy",
+    "file": "privacy-policy/index.html",
+    "title": "კონფიდენციალურობა | webandapp",
+    "description": "კონფიდენციალურობა — webandapp. მოგვწერეთ: mishvelidze.u@gmail.com",
+    "h1": "კონფიდენციალურობა",
+    "lang": "ka",
+    "slug": "privacy-policy",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "route": "/terms",
+    "file": "terms/index.html",
+    "title": "გამოყენების პირობები | webandapp",
+    "description": "გამოყენების პირობები — webandapp. ფორმის გაგზავნით ითხოვთ შეთავაზებას. ეს შეკვეთის ან გადახდის დადასტურება არ არის.",
+    "h1": "გამოყენების პირობები",
+    "lang": "ka",
+    "slug": "terms",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "route": "/blog/website-brief",
+    "file": "blog/website-brief/index.html",
+    "title": "რა ინფორმაცია უნდა მოამზადოთ საიტის შეკვეთამდე | webandapp",
+    "description": "პრაქტიკული ჩამონათვალი: მიზანი, აუდიტორია, გვერდები, კონტენტი, ფუნქციები და წვდომები, რომლებიც საიტის დაგეგმვას ამარტივებს.",
+    "h1": "რა ინფორმაცია უნდა მოამზადოთ საიტის შეკვეთამდე",
+    "lang": "ka",
+    "slug": "blog/website-brief",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ]
+  },
+  {
+    "route": "/blog/online-store-checklist",
+    "file": "blog/online-store-checklist/index.html",
+    "title": "რა უნდა დაგეგმოთ ონლაინ მაღაზიის შექმნამდე | webandapp",
+    "description": "კატალოგი, გადახდა, მიწოდება, დაბრუნება და შეკვეთების მართვა — საკითხები, რომლებიც ონლაინ მაღაზიის ფასსა და ვადას განსაზღვრავს.",
+    "h1": "რა უნდა დაგეგმოთ ონლაინ მაღაზიის შექმნამდე",
+    "lang": "ka",
+    "slug": "blog/online-store-checklist",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ]
+  },
+  {
+    "route": "/blog/why-not-google",
+    "file": "blog/why-not-google/index.html",
+    "title": "რატომ არ ჩანს ვებსაიტი Google-ში | webandapp",
+    "description": "ინდექსაცია, ტექნიკური დაბრკოლებები, კონტენტი და კონკურენცია — როგორ ვიპოვოთ საიტის დაბალი ხილვადობის მიზეზი.",
+    "h1": "რატომ არ ჩანს ვებსაიტი Google-ში",
+    "lang": "ka",
+    "slug": "blog/why-not-google",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ]
+  },
+  {
+    "route": "/404",
+    "file": "404/index.html",
+    "title": "ეს გვერდი ვერ მოიძებნა | webandapp",
+    "description": "შესაძლოა მისამართი შეიცვალა ან არასწორადაა შეყვანილი. დაბრუნდით მთავარ გვერდზე ან დაგვიკავშირდით.",
+    "h1": "ეს გვერდი ვერ მოიძებნა",
+    "lang": "ka",
+    "slug": "404",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "route": "/en/",
+    "file": "en/index.html",
+    "title": "webandapp — Websites & apps for businesses in Georgia",
+    "description": "From your idea to the first enquiry. We build websites, online stores and mobile apps for businesses across Georgia.",
+    "h1": "Websites and apps that help your business move forward.",
+    "lang": "en",
+    "slug": "",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "Organization",
+      "WebSite",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/en/website-development",
+    "file": "en/website-development/index.html",
+    "title": "Website development | webandapp",
+    "description": "Websites for small businesses, service companies and growing brands in Georgia. We plan each page around what visitors need to understand and the action they should take.",
+    "h1": "Website development",
+    "lang": "en",
+    "slug": "website-development",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/en/ecommerce-development",
+    "file": "en/ecommerce-development/index.html",
+    "title": "Ecommerce development | webandapp",
+    "description": "Online stores built around your catalogue, fulfilment rules and customers in Georgia. We connect product discovery with a clear checkout and manageable orders.",
+    "h1": "Ecommerce development",
+    "lang": "en",
+    "slug": "ecommerce-development",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/en/wordpress-development",
+    "file": "en/wordpress-development/index.html",
+    "title": "WordPress development | webandapp",
+    "description": "WordPress websites for businesses that regularly update pages, articles and news. We design a content structure your team can manage.",
+    "h1": "WordPress development",
+    "lang": "en",
+    "slug": "wordpress-development",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/en/corporate-website",
+    "file": "en/corporate-website/index.html",
+    "title": "Corporate websites | webandapp",
+    "description": "A clear home for your company’s services, information and contact routes. We organise content for customers, partners and other audiences.",
+    "h1": "Corporate websites",
+    "lang": "en",
+    "slug": "corporate-website",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/en/landing-page",
+    "file": "en/landing-page/index.html",
+    "title": "Landing pages | webandapp",
+    "description": "A focused page for one offer and one main action. Useful for a new service, product launch or campaign.",
+    "h1": "Landing pages",
+    "lang": "en",
+    "slug": "landing-page",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/en/mobile-app-development",
+    "file": "en/mobile-app-development/index.html",
+    "title": "Mobile app development | webandapp",
+    "description": "iOS and Android apps for repeat tasks: bookings, orders, personal accounts and business operations. The first version focuses on the functions needed to test the core idea.",
+    "h1": "Mobile app development",
+    "lang": "en",
+    "slug": "mobile-app-development",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/en/custom-software",
+    "file": "en/custom-software/index.html",
+    "title": "Custom software | webandapp",
+    "description": "Software shaped around your workflow. We map processes, roles and data before planning tools that reduce repetitive work.",
+    "h1": "Custom software",
+    "lang": "en",
+    "slug": "custom-software",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/en/ui-ux-design",
+    "file": "en/ui-ux-design/index.html",
+    "title": "UI/UX design | webandapp",
+    "description": "Design starts with the task a person needs to complete. We connect visual identity with clear structure, understandable text and usable controls.",
+    "h1": "UI/UX design",
+    "lang": "en",
+    "slug": "ui-ux-design",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/en/seo",
+    "file": "en/seo/index.html",
+    "title": "SEO optimisation | webandapp",
+    "description": "Help search engines understand your pages and visitors find useful answers. We start with an audit and a prioritised plan.",
+    "h1": "SEO optimisation",
+    "lang": "en",
+    "slug": "seo",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/en/website-maintenance",
+    "file": "en/website-maintenance/index.html",
+    "title": "Website maintenance | webandapp",
+    "description": "Updates, checks and changes for a live website. Support scope follows your system and the functions that matter to your business.",
+    "h1": "Website maintenance",
+    "lang": "en",
+    "slug": "website-maintenance",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/en/portfolio",
+    "file": "en/portfolio/index.html",
+    "title": "Portfolio | webandapp",
+    "description": "Project case studies will be added once real materials and publication permission are available.",
+    "h1": "Portfolio",
+    "lang": "en",
+    "slug": "portfolio",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "route": "/en/prices",
+    "file": "en/prices/index.html",
+    "title": "Pricing | webandapp",
+    "description": "Choose a project format. A final quote follows agreement on functionality, design and scope.",
+    "h1": "Pricing",
+    "lang": "en",
+    "slug": "prices",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "route": "/en/about",
+    "file": "en/about/index.html",
+    "title": "About | webandapp",
+    "description": "Websites, apps and business systems. From understanding the idea to building it.",
+    "h1": "About",
+    "lang": "en",
+    "slug": "about",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "Organization",
+      "WebSite",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "route": "/en/blog",
+    "file": "en/blog/index.html",
+    "title": "Insights | webandapp",
+    "description": "Practical guides to help businesses plan and compare digital projects.",
+    "h1": "Insights",
+    "lang": "en",
+    "slug": "blog",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "route": "/en/faq",
+    "file": "en/faq/index.html",
+    "title": "FAQ | webandapp",
+    "description": "Answers to the practical questions that help you plan a project.",
+    "h1": "FAQ",
+    "lang": "en",
+    "slug": "faq",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/en/contact",
+    "file": "en/contact/index.html",
+    "title": "Contact | webandapp",
+    "description": "Describe your business and what you would like to build. We can clarify the details together.",
+    "h1": "Contact",
+    "lang": "en",
+    "slug": "contact",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "route": "/en/privacy-policy",
+    "file": "en/privacy-policy/index.html",
+    "title": "Privacy policy | webandapp",
+    "description": "Privacy policy — webandapp. Email us: mishvelidze.u@gmail.com",
+    "h1": "Privacy policy",
+    "lang": "en",
+    "slug": "privacy-policy",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "route": "/en/terms",
+    "file": "en/terms/index.html",
+    "title": "Terms of use | webandapp",
+    "description": "Terms of use — webandapp. This form requests a quote. It does not confirm an order or payment.",
+    "h1": "Terms of use",
+    "lang": "en",
+    "slug": "terms",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "route": "/en/blog/website-brief",
+    "file": "en/blog/website-brief/index.html",
+    "title": "What to prepare before ordering a website | webandapp",
+    "description": "A practical checklist covering goals, audiences, pages, content, features and access.",
+    "h1": "What to prepare before ordering a website",
+    "lang": "en",
+    "slug": "blog/website-brief",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ]
+  },
+  {
+    "route": "/en/blog/online-store-checklist",
+    "file": "en/blog/online-store-checklist/index.html",
+    "title": "What to plan before building an online store | webandapp",
+    "description": "Catalogue, payment, delivery, returns and order management — the choices that determine scope.",
+    "h1": "What to plan before building an online store",
+    "lang": "en",
+    "slug": "blog/online-store-checklist",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ]
+  },
+  {
+    "route": "/en/blog/why-not-google",
+    "file": "en/blog/why-not-google/index.html",
+    "title": "Why a website does not appear in Google | webandapp",
+    "description": "Indexing, technical barriers, content and competition — how to investigate low search visibility.",
+    "h1": "Why a website does not appear in Google",
+    "lang": "en",
+    "slug": "blog/why-not-google",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ]
+  },
+  {
+    "route": "/en/404",
+    "file": "en/404/index.html",
+    "title": "This page could not be found | webandapp",
+    "description": "The address may have changed or been entered incorrectly. Return home or contact us.",
+    "h1": "This page could not be found",
+    "lang": "en",
+    "slug": "404",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "route": "/ru/",
+    "file": "ru/index.html",
+    "title": "webandapp — Сайты и приложения для бизнеса в Грузии",
+    "description": "От идеи до первого обращения. Создаём сайты, интернет-магазины и мобильные приложения для бизнеса по всей Грузии.",
+    "h1": "Сайты и приложения, которые помогают бизнесу двигаться вперёд.",
+    "lang": "ru",
+    "slug": "",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "Organization",
+      "WebSite",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/ru/website-development",
+    "file": "ru/website-development/index.html",
+    "title": "Разработка сайтов | webandapp",
+    "description": "Создаём сайты для малого бизнеса, сервисных компаний и новых брендов в Грузии. Структура каждой страницы помогает посетителю разобраться в предложении и отправить запрос.",
+    "h1": "Разработка сайтов",
+    "lang": "ru",
+    "slug": "website-development",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/ru/ecommerce-development",
+    "file": "ru/ecommerce-development/index.html",
+    "title": "Создание интернет-магазинов | webandapp",
+    "description": "Интернет-магазины с учётом вашего каталога, правил доставки и покупателей в Грузии. Продумываем путь от выбора товара до оплаты и обработки заказа.",
+    "h1": "Создание интернет-магазинов",
+    "lang": "ru",
+    "slug": "ecommerce-development",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/ru/wordpress-development",
+    "file": "ru/wordpress-development/index.html",
+    "title": "Разработка сайтов на WordPress | webandapp",
+    "description": "Сайты на WordPress для компаний, которые регулярно обновляют страницы, статьи и новости. Продумываем структуру контента, удобную вашей команде.",
+    "h1": "Разработка сайтов на WordPress",
+    "lang": "ru",
+    "slug": "wordpress-development",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/ru/corporate-website",
+    "file": "ru/corporate-website/index.html",
+    "title": "Корпоративные сайты | webandapp",
+    "description": "Единое пространство для услуг, информации о компании и контактов. Структуру контента строим с учётом клиентов, партнёров и других аудиторий.",
+    "h1": "Корпоративные сайты",
+    "lang": "ru",
+    "slug": "corporate-website",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/ru/landing-page",
+    "file": "ru/landing-page/index.html",
+    "title": "Создание лендингов | webandapp",
+    "description": "Страница для одного предложения и одного основного действия. Подходит для новой услуги, запуска продукта или рекламной кампании.",
+    "h1": "Создание лендингов",
+    "lang": "ru",
+    "slug": "landing-page",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/ru/mobile-app-development",
+    "file": "ru/mobile-app-development/index.html",
+    "title": "Разработка мобильных приложений | webandapp",
+    "description": "Приложения для iOS и Android: бронирование, заказы, личный кабинет и рабочие процессы. В первую версию включаем функции, необходимые для проверки основной идеи.",
+    "h1": "Разработка мобильных приложений",
+    "lang": "ru",
+    "slug": "mobile-app-development",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/ru/custom-software",
+    "file": "ru/custom-software/index.html",
+    "title": "Индивидуальное программное обеспечение | webandapp",
+    "description": "Программы под ваши рабочие процессы. Сначала описываем задачи, роли и данные, затем планируем автоматизацию повторяющейся работы.",
+    "h1": "Индивидуальное программное обеспечение",
+    "lang": "ru",
+    "slug": "custom-software",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/ru/ui-ux-design",
+    "file": "ru/ui-ux-design/index.html",
+    "title": "UI/UX дизайн | webandapp",
+    "description": "Дизайн начинается с задачи пользователя. Соединяем визуальный стиль с понятной структурой, ясными текстами и удобными действиями.",
+    "h1": "UI/UX дизайн",
+    "lang": "ru",
+    "slug": "ui-ux-design",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/ru/seo",
+    "file": "ru/seo/index.html",
+    "title": "SEO оптимизация | webandapp",
+    "description": "Помогаем поисковым системам понимать страницы, а посетителям — находить полезные ответы. Начинаем с аудита и плана приоритетов.",
+    "h1": "SEO оптимизация",
+    "lang": "ru",
+    "slug": "seo",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/ru/website-maintenance",
+    "file": "ru/website-maintenance/index.html",
+    "title": "Техническая поддержка сайтов | webandapp",
+    "description": "Обновления, проверки и изменения для работающего сайта. Объём поддержки зависит от системы и важных для бизнеса функций.",
+    "h1": "Техническая поддержка сайтов",
+    "lang": "ru",
+    "slug": "website-maintenance",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/ru/portfolio",
+    "file": "ru/portfolio/index.html",
+    "title": "Портфолио | webandapp",
+    "description": "Описания проектов появятся после получения реальных материалов и разрешения на публикацию.",
+    "h1": "Портфолио",
+    "lang": "ru",
+    "slug": "portfolio",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "route": "/ru/prices",
+    "file": "ru/prices/index.html",
+    "title": "Стоимость | webandapp",
+    "description": "Выберите формат проекта. Точная цена определяется после согласования функций, дизайна и объёма работ.",
+    "h1": "Стоимость",
+    "lang": "ru",
+    "slug": "prices",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "route": "/ru/about",
+    "file": "ru/about/index.html",
+    "title": "О нас | webandapp",
+    "description": "Сайты, приложения и бизнес-системы. От понимания идеи до технической реализации.",
+    "h1": "О нас",
+    "lang": "ru",
+    "slug": "about",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "Organization",
+      "WebSite",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "route": "/ru/blog",
+    "file": "ru/blog/index.html",
+    "title": "Блог | webandapp",
+    "description": "Практические руководства для обоснованных решений.",
+    "h1": "Блог",
+    "lang": "ru",
+    "slug": "blog",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "route": "/ru/faq",
+    "file": "ru/faq/index.html",
+    "title": "Вопросы | webandapp",
+    "description": "Ответы на практические вопросы перед началом проекта.",
+    "h1": "Вопросы",
+    "lang": "ru",
+    "slug": "faq",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "FAQPage"
+    ]
+  },
+  {
+    "route": "/ru/contact",
+    "file": "ru/contact/index.html",
+    "title": "Контакты | webandapp",
+    "description": "Опишите ваш бизнес и то, что хотите создать. Остальные детали уточним вместе.",
+    "h1": "Контакты",
+    "lang": "ru",
+    "slug": "contact",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "route": "/ru/privacy-policy",
+    "file": "ru/privacy-policy/index.html",
+    "title": "Конфиденциальность | webandapp",
+    "description": "Конфиденциальность — webandapp. Написать нам: mishvelidze.u@gmail.com",
+    "h1": "Конфиденциальность",
+    "lang": "ru",
+    "slug": "privacy-policy",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "route": "/ru/terms",
+    "file": "ru/terms/index.html",
+    "title": "Условия использования | webandapp",
+    "description": "Условия использования — webandapp. Форма предназначена для запроса предложения. Она не подтверждает заказ или оплату.",
+    "h1": "Условия использования",
+    "lang": "ru",
+    "slug": "terms",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "route": "/ru/blog/website-brief",
+    "file": "ru/blog/website-brief/index.html",
+    "title": "Что подготовить перед заказом сайта | webandapp",
+    "description": "Практический список: цель, аудитория, страницы, контент, функции и доступы.",
+    "h1": "Что подготовить перед заказом сайта",
+    "lang": "ru",
+    "slug": "blog/website-brief",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ]
+  },
+  {
+    "route": "/ru/blog/online-store-checklist",
+    "file": "ru/blog/online-store-checklist/index.html",
+    "title": "Что спланировать до создания интернет-магазина | webandapp",
+    "description": "Каталог, оплата, доставка, возвраты и заказы — решения, определяющие объём проекта.",
+    "h1": "Что спланировать до создания интернет-магазина",
+    "lang": "ru",
+    "slug": "blog/online-store-checklist",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ]
+  },
+  {
+    "route": "/ru/blog/why-not-google",
+    "file": "ru/blog/why-not-google/index.html",
+    "title": "Почему сайт не виден в Google | webandapp",
+    "description": "Индексация, технические проблемы, контент и конкуренция — как исследовать низкую видимость.",
+    "h1": "Почему сайт не виден в Google",
+    "lang": "ru",
+    "slug": "blog/why-not-google",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ]
+  },
+  {
+    "route": "/ru/404",
+    "file": "ru/404/index.html",
+    "title": "Страница не найдена | webandapp",
+    "description": "Возможно, адрес изменился или введён неверно. Вернитесь на главную или свяжитесь с нами.",
+    "h1": "Страница не найдена",
+    "lang": "ru",
+    "slug": "404",
+    "noindex": true,
+    "schemas": [
+      "WebPage",
+      "BreadcrumbList"
+    ]
+  }
+]
