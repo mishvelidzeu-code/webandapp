@@ -9,7 +9,7 @@ export default {
   city: { ka: 'თბილისი, საქართველო', en: 'Tbilisi, Georgia', ru: 'Тбилиси, Грузия' },
   whatsapp: 'https://wa.me/995599308414',
   messenger: '',
-  analytics: { ga4: '', gtm: '', clarity: '', searchConsole: '' },
+  analytics: { ga4: '', gtm: '', clarity: '', searchConsole: 'qYmedw0C4_Elbs1_Bd9SgO_aas2TGBZDgnJmCIMZNio' },
   portfolio: [],
   date: '2026-09-05'
 };
