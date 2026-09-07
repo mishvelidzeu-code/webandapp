@@ -16,12 +16,14 @@ export function validateLead(input){
  return {data};
 }
 export function createLeadHandler({origin,secret,sendMail,ready}){
+ const allowedOrigins=new Set((Array.isArray(origin)?origin:[origin]).filter(Boolean));
  const limits=new Map(),ids=new Map();
  const timer=setInterval(()=>{const now=Date.now();for(const [k,v]of limits)if(v.expiry<now)limits.delete(k);for(const [k,v]of ids)if(v.expiry<now)ids.delete(k);},60000);timer.unref();
  return async function handle(req,res,body){
   const answer=(code,value)=>{res.writeHead(code,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'});res.end(JSON.stringify(value));};
-  if(req.headers.origin!==origin){answer(403,{error:'origin'});return;}
-  const ip=req.socket.remoteAddress||'unknown',now=Date.now();let limit=limits.get(ip);if(!limit||limit.expiry<now)limit={count:0,expiry:now+600000};limit.count++;limits.set(ip,limit);if(limit.count>5){res.setHeader('Retry-After','600');answer(429,{error:'rate_limit'});return;}
+  if(!allowedOrigins.has(req.headers.origin)){answer(403,{error:'origin'});return;}
+  const forwarded=String(req.headers['x-forwarded-for']||'').split(',')[0].trim();
+  const ip=forwarded||req.socket?.remoteAddress||'unknown',now=Date.now();let limit=limits.get(ip);if(!limit||limit.expiry<now)limit={count:0,expiry:now+600000};limit.count++;limits.set(ip,limit);if(limit.count>5){res.setHeader('Retry-After','600');answer(429,{error:'rate_limit'});return;}
   const token=req.headers['x-csrf-token'];const cookie=(req.headers.cookie||'').split(';').map(x=>x.trim()).find(x=>x.startsWith('wa_csrf='))?.slice(8);
   if(!validToken(token,secret)||!equal(token,cookie)){answer(403,{error:'csrf'});return;}
   if(!ready){answer(503,{error:'not_configured'});return;}

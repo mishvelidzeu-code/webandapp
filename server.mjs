@@ -22,7 +22,7 @@ const mime = {
   '.webmanifest': 'application/manifest+json'
 };
 
-async function createApp(options = {}) {
+export async function createApp(options = {}) {
   const routes = JSON.parse(
     await readFile(path.join(root, 'routes-manifest.json'), 'utf8')
   );
@@ -452,21 +452,6 @@ async function createApp(options = {}) {
         : buffer
     );
   });
-}
-
-/*
- * Vercel Serverless Function handler
- */
-let appPromise;
-
-export default async function handler(req, res) {
-  if (!appPromise) {
-    appPromise = createApp();
-  }
-
-  const server = await appPromise;
-
-  server.emit('request', req, res);
 }
 
 /*
