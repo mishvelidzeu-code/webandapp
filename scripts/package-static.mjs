@@ -31,7 +31,7 @@ for (const page of manifest) {
   await writeFile(destination, publicHtml(await readFile(source, 'utf8')));
 }
 
-for (const file of ['robots.txt', 'sitemap.xml']) {
+for (const file of ['robots.txt', 'sitemap.xml', 'favicon.ico']) {
   await cp(path.join(root, file), path.join(output, file));
 }
 

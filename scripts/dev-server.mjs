@@ -19,6 +19,7 @@ const mime = {
   '.js': 'text/javascript',
   '.svg': 'image/svg+xml',
   '.png': 'image/png',
+  '.ico': 'image/x-icon',
   '.woff2': 'font/woff2',
   '.txt': 'text/plain',
   '.xml': 'application/xml',
@@ -338,9 +339,11 @@ export async function createApp(options = {}) {
           mime[path.extname(pathname)] ||
           'application/octet-stream';
       } else if (
-        ['/robots.txt', '/sitemap.xml'].includes(
-          pathname
-        )
+        [
+          '/robots.txt',
+          '/sitemap.xml',
+          '/favicon.ico'
+        ].includes(pathname)
       ) {
         buffer = await readFile(
           path.join(root, pathname.slice(1))
