@@ -1,0 +1,5 @@
+Photos used in the hero project picker (Unsplash License, https://unsplash.com/license):
+
+picker-website.webp — Azwedo L.LC, https://unsplash.com/photos/c2k8vBHyNwM
+picker-shop.webp    — SumUp, https://unsplash.com/photos/ShB9pI4mpRg
+picker-app.webp     — Nathana Rebouças, https://unsplash.com/photos/xE5SAT0WeTQ
