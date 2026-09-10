@@ -43,7 +43,7 @@
  let pickerPrice;
  if(pickerGraphic&&t.pickerPrices){
   pickerGraphic.removeAttribute('aria-hidden');
-  pickerGraphic.querySelectorAll('.ring,.amp,.graphic-label').forEach(el=>el.setAttribute('aria-hidden','true'));
+  pickerGraphic.querySelectorAll('.graphic-img,.graphic-label').forEach(el=>el.setAttribute('aria-hidden','true'));
   pickerPrice=document.createElement('span');
   pickerPrice.className='graphic-price';
   pickerPrice.id='picker-price';
@@ -66,7 +66,7 @@
   pickerCall.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.78 4.18 2 2 0 0 1 4.77 2h3a2 2 0 0 1 2 1.72c.12.9.33 1.78.62 2.63a2 2 0 0 1-.45 2.11L8.67 9.73a16 16 0 0 0 5.6 5.6l1.27-1.27a2 2 0 0 1 2.11-.45c.85.29 1.73.5 2.63.62A2 2 0 0 1 22 16.92z"/></svg>';
   pickerActions.append(pickerCall);
  }
- document.querySelectorAll('[data-pick]').forEach(b=>b.addEventListener('click',()=>{const n=Number(b.dataset.pick);document.querySelectorAll('[data-pick]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));document.getElementById('picker-result').textContent=t.pickerLabels[n];document.getElementById('picker-description').textContent=t.pickerDescriptions[n];if(pickerPrice)pickerPrice.textContent=t.pickerPrices[n];routeLink(document.getElementById('picker-cta'),prefix+'/contact?service='+['website-development','ecommerce-development','mobile-app-development'][n]);}));
+ document.querySelectorAll('[data-pick]').forEach(b=>b.addEventListener('click',()=>{const n=Number(b.dataset.pick);document.querySelectorAll('[data-pick]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));document.getElementById('picker-result').textContent=t.pickerLabels[n];document.getElementById('picker-description').textContent=t.pickerDescriptions[n];if(pickerPrice)pickerPrice.textContent=t.pickerPrices[n];if(pickerGraphic)pickerGraphic.querySelectorAll('.graphic-img').forEach((img,i)=>i===n?img.setAttribute('data-active',''):img.removeAttribute('data-active'));routeLink(document.getElementById('picker-cta'),prefix+'/contact?service='+['website-development','ecommerce-development','mobile-app-development'][n]);}));
  let consent=false,analyticsLoaded=false;
  const analytics=cfg.analytics||{};
  const enabled=online&&cfg.published&&(analytics.ga4||analytics.gtm||analytics.clarity);
