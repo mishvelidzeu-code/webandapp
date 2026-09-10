@@ -25,11 +25,7 @@
   languageTrigger.setAttribute('aria-haspopup','true');
   languageTrigger.setAttribute('aria-expanded','false');
   const languageCode=makeLanguageFlag(currentLanguage?.getAttribute('lang'));
-  const languageChevron=document.createElement('span');
-  languageChevron.setAttribute('aria-hidden','true');
-  languageChevron.textContent='⌄';
   if(languageCode)languageTrigger.append(languageCode);
-  languageTrigger.append(languageChevron);
   const languageMenu=document.createElement('div');
   languageMenu.className='language-menu';
   languageLinks.forEach(link=>languageMenu.append(link));
