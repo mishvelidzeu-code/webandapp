@@ -8,6 +8,7 @@ import { fileURLToPath } from 'node:url';
 import config from '../site.config.mjs';
 import { createToken, createLeadHandler } from '../src/leads.mjs';
 import { ui } from '../src/ui.mjs';
+import { versionCss } from '../src/assets.mjs';
 
 const root = path.resolve(
   path.dirname(fileURLToPath(import.meta.url)),
@@ -23,7 +24,10 @@ const mime = {
   '.woff2': 'font/woff2',
   '.txt': 'text/plain',
   '.xml': 'application/xml',
-  '.webmanifest': 'application/manifest+json'
+  '.webmanifest': 'application/manifest+json',
+  '.webp': 'image/webp',
+  '.avif': 'image/avif',
+  '.jpg': 'image/jpeg'
 };
 
 export async function createApp(options = {}) {
@@ -284,14 +288,9 @@ export async function createApp(options = {}) {
       return;
     }
 
-    if (/^\/(en|ru)$/.test(pathname)) {
-      redirect(pathname + '/');
-      return;
-    }
-
     if (
       pathname.endsWith('/') &&
-      !['/', '/en/', '/ru/'].includes(pathname)
+      pathname !== '/'
     ) {
       redirect(
         pathname.slice(0, -1) + url.search
@@ -361,9 +360,9 @@ export async function createApp(options = {}) {
         p =>
           p.slug === '404' &&
           p.lang ===
-            (pathname.startsWith('/en/')
+            (/^\/en(\/|$)/.test(pathname)
               ? 'en'
-              : pathname.startsWith('/ru/')
+              : /^\/ru(\/|$)/.test(pathname)
                 ? 'ru'
                 : 'ka')
       );
@@ -378,6 +377,10 @@ export async function createApp(options = {}) {
         'X-Robots-Tag',
         'noindex'
       );
+    }
+
+    if (pathname === '/assets/styles.css') {
+      buffer = Buffer.from(versionCss(buffer.toString()));
     }
 
     if (contentType === 'text/html') {
@@ -422,7 +425,7 @@ export async function createApp(options = {}) {
       contentType === 'text/html'
         ? 'no-cache'
         : pathname.startsWith('/assets/')
-          ? 'public, max-age=86400'
+          ? 'public, max-age=31536000, immutable'
           : 'public, max-age=300'
     );
 

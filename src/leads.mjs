@@ -1,5 +1,5 @@
 import {createHmac,randomBytes,timingSafeEqual,createHash} from 'node:crypto';
-import {services} from './services.mjs';
+import {services} from './services/index.mjs';
 const equal=(a,b)=>{const x=Buffer.from(a||''),y=Buffer.from(b||'');return x.length===y.length&&timingSafeEqual(x,y);};
 export function createToken(secret,now=Date.now()){const value=now+'.'+randomBytes(18).toString('hex');return value+'.'+createHmac('sha256',secret).update(value).digest('hex');}
 export function validToken(token,secret,now=Date.now()){if(typeof token!=='string'||token.length>200)return false;const parts=token.split('.');if(parts.length!==3)return false;const age=now-Number(parts[0]);return age>=1500&&age<20*60e3&&equal(parts[2],createHmac('sha256',secret).update(parts.slice(0,2).join('.')).digest('hex'));}

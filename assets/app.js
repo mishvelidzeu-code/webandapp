@@ -2,66 +2,24 @@
  'use strict';
  const data=JSON.parse(document.getElementById('page-data').textContent), t=data.messages;
  const cfg=window.WEBANDAPP_CONFIG||{analytics:{}}, online=location.protocol!=='file:';
- const routeLink=(el,target)=>{el.dataset.route=target;if(online)el.setAttribute('href',target);else{const depth=data.route.replace(/^\//,'').split('/').filter(Boolean).length;const [pathname,query]=target.split('?');el.setAttribute('href','../'.repeat(depth)+pathname.replace(/^\//,'').replace(/\/$/,'')+(pathname==='/'?'index.html':'/index.html')+(query?'?'+query:''));}};
- if(online)document.querySelectorAll('a[data-route]').forEach(a=>a.setAttribute('href',a.dataset.route));
+ // Links are rendered with absolute routes at build time; only the file:// preview needs relative rewriting.
+ const routeLink=(el,target)=>{el.dataset.route=target;if(online)el.setAttribute('href',target);else{const depth=data.route.replace(/^\//,'').split('/').filter(Boolean).length;const [pathname,query]=target.split('?');el.setAttribute('href','../'.repeat(depth)+(pathname==='/'?'index.html':pathname.replace(/^\//,'').replace(/\/$/,'')+'/index.html')+(query?'?'+query:''));}};
+ if(!online)document.querySelectorAll('a[data-route]').forEach(a=>routeLink(a,a.dataset.route));
  const menu=document.querySelector('.menu-toggle'),nav=document.getElementById('main-nav');
  const closeMenu=()=>{menu?.setAttribute('aria-expanded','false');nav?.classList.remove('is-open');};
  menu?.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));nav.classList.toggle('is-open',open);});
  nav?.addEventListener('click',e=>{if(e.target.closest('a'))closeMenu();});
  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&menu?.getAttribute('aria-expanded')==='true'){closeMenu();menu.focus();}});
  const prefix=data.lang==='ka'?'':'/'+data.lang;
- const languageAssetBase=document.currentScript?.src||location.href;
- const languageNav=document.querySelector('.languages');
- if(languageNav){
-  const languageLinks=[...languageNav.querySelectorAll('a')];
-  const languageFlags={ka:'flag-ka.svg?v=official-20260906',en:'flag-en.svg',ru:'flag-ru.svg'};
-  const makeLanguageFlag=code=>{const file=languageFlags[code];if(!file)return null;const image=document.createElement('img');image.className='language-flag';image.src=new URL(file,languageAssetBase).href;image.alt='';image.width=27;image.height=18;image.setAttribute('aria-hidden','true');return image;};
-  const currentLanguage=languageLinks.find(link=>link.hasAttribute('aria-current'))||languageLinks[0];
-  languageLinks.forEach(link=>{const flagIcon=makeLanguageFlag(link.getAttribute('lang'));if(!flagIcon)return;link.textContent='';link.append(flagIcon);link.title=link.getAttribute('aria-label')||'';});
-  const languageTrigger=document.createElement('button');
-  languageTrigger.type='button';
-  languageTrigger.className='language-trigger';
-  languageTrigger.setAttribute('aria-label',languageNav.getAttribute('aria-label')||'Choose language');
-  languageTrigger.setAttribute('aria-haspopup','true');
-  languageTrigger.setAttribute('aria-expanded','false');
-  const languageCode=makeLanguageFlag(currentLanguage?.getAttribute('lang'));
-  if(languageCode)languageTrigger.append(languageCode);
-  const languageMenu=document.createElement('div');
-  languageMenu.className='language-menu';
-  languageLinks.forEach(link=>languageMenu.append(link));
-  languageNav.replaceChildren(languageTrigger,languageMenu);
+ // Language menu markup is static; JS only toggles it for touch/keyboard users (hover is CSS).
+ const languageNav=document.querySelector('.languages'),languageTrigger=languageNav?.querySelector('.language-trigger');
+ if(languageNav&&languageTrigger){
   const closeLanguages=()=>{languageNav.classList.remove('is-open');languageTrigger.setAttribute('aria-expanded','false');};
   languageTrigger.addEventListener('click',()=>{const open=!languageNav.classList.contains('is-open');languageNav.classList.toggle('is-open',open);languageTrigger.setAttribute('aria-expanded',String(open));});
   document.addEventListener('click',e=>{if(!languageNav.contains(e.target))closeLanguages();});
   document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeLanguages();languageTrigger.blur();}});
  }
- const pickerGraphic=document.querySelector('.picker-graphic');
- let pickerPrice;
- if(pickerGraphic&&t.pickerPrices){
-  pickerGraphic.removeAttribute('aria-hidden');
-  pickerGraphic.querySelectorAll('.graphic-img,.graphic-label').forEach(el=>el.setAttribute('aria-hidden','true'));
-  pickerPrice=document.createElement('span');
-  pickerPrice.className='graphic-price';
-  pickerPrice.id='picker-price';
-  pickerPrice.setAttribute('aria-live','polite');
-  pickerPrice.textContent=t.pickerPrices[0];
-  pickerGraphic.append(pickerPrice);
- }
- const pickerCta=document.getElementById('picker-cta');
- if(pickerCta&&cfg.phone){
-  const pickerActions=document.createElement('div');
-  pickerActions.className='picker-actions';
-  pickerCta.before(pickerActions);
-  pickerActions.append(pickerCta);
-  const pickerCall=document.createElement('a');
-  pickerCall.className='picker-call';
-  pickerCall.href='tel:'+cfg.phone;
-  pickerCall.setAttribute('aria-label',t.call+' — '+(cfg.phoneDisplay||cfg.phone));
-  pickerCall.title=t.call;
-  pickerCall.dataset.event='phone_click';
-  pickerCall.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.78 4.18 2 2 0 0 1 4.77 2h3a2 2 0 0 1 2 1.72c.12.9.33 1.78.62 2.63a2 2 0 0 1-.45 2.11L8.67 9.73a16 16 0 0 0 5.6 5.6l1.27-1.27a2 2 0 0 1 2.11-.45c.85.29 1.73.5 2.63.62A2 2 0 0 1 22 16.92z"/></svg>';
-  pickerActions.append(pickerCall);
- }
+ const pickerGraphic=document.querySelector('.picker-graphic'),pickerPrice=document.getElementById('picker-price');
  document.querySelectorAll('[data-pick]').forEach(b=>b.addEventListener('click',()=>{const n=Number(b.dataset.pick);document.querySelectorAll('[data-pick]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));document.getElementById('picker-result').textContent=t.pickerLabels[n];document.getElementById('picker-description').textContent=t.pickerDescriptions[n];if(pickerPrice)pickerPrice.textContent=t.pickerPrices[n];if(pickerGraphic)pickerGraphic.querySelectorAll('.graphic-img').forEach((img,i)=>i===n?img.setAttribute('data-active',''):img.removeAttribute('data-active'));routeLink(document.getElementById('picker-cta'),prefix+'/contact?service='+['website-development','ecommerce-development','mobile-app-development'][n]);}));
  let consent=false,analyticsLoaded=false;
  const analytics=cfg.analytics||{};

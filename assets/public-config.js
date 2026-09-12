@@ -1,1 +1,1 @@
-window.WEBANDAPP_CONFIG={"analytics":{"ga4":"G-MFV3MXWP3W","gtm":"","clarity":"","searchConsole":"qYmedw0C4_Elbs1_Bd9SgO_aas2TGBZDgnJmCIMZNio"},"published":false,"phone":"+995599308414","phoneDisplay":"+995 599 30 84 14"};
+window.WEBANDAPP_CONFIG={"analytics":{"ga4":"G-MFV3MXWP3W","gtm":"","clarity":"","searchConsole":"qYmedw0C4_Elbs1_Bd9SgO_aas2TGBZDgnJmCIMZNio"},"published":true,"phone":"+995599308414","phoneDisplay":"+995 599 30 84 14"};

@@ -1,0 +1,362 @@
+{
+  "/": {
+    "hash": "9283113bbbaf",
+    "lastmod": "2026-09-12"
+  },
+  "/website-development": {
+    "hash": "60005ab832d7",
+    "lastmod": "2026-09-12"
+  },
+  "/ecommerce-development": {
+    "hash": "7b1f1a67ce04",
+    "lastmod": "2026-09-12"
+  },
+  "/mobile-app-development": {
+    "hash": "d1860a3b56ba",
+    "lastmod": "2026-09-12"
+  },
+  "/custom-software": {
+    "hash": "7e00cc8b6bfd",
+    "lastmod": "2026-09-12"
+  },
+  "/ui-ux-design": {
+    "hash": "7f60c3eb545c",
+    "lastmod": "2026-09-12"
+  },
+  "/seo": {
+    "hash": "b90e24dc6e82",
+    "lastmod": "2026-09-12"
+  },
+  "/wordpress-development": {
+    "hash": "29123f553e41",
+    "lastmod": "2026-09-12"
+  },
+  "/corporate-website": {
+    "hash": "d0fd39f55a86",
+    "lastmod": "2026-09-12"
+  },
+  "/landing-page": {
+    "hash": "3f1b78adb245",
+    "lastmod": "2026-09-12"
+  },
+  "/website-maintenance": {
+    "hash": "72afec4a73ec",
+    "lastmod": "2026-09-12"
+  },
+  "/portfolio": {
+    "hash": "b35cc2820991",
+    "lastmod": "2026-09-12"
+  },
+  "/prices": {
+    "hash": "5fc4b7fb94b7",
+    "lastmod": "2026-09-12"
+  },
+  "/about": {
+    "hash": "85d0373be4f9",
+    "lastmod": "2026-09-12"
+  },
+  "/blog": {
+    "hash": "e9a337653c79",
+    "lastmod": "2026-09-12"
+  },
+  "/faq": {
+    "hash": "682607fffb59",
+    "lastmod": "2026-09-12"
+  },
+  "/contact": {
+    "hash": "4cca869e05b1",
+    "lastmod": "2026-09-12"
+  },
+  "/privacy-policy": {
+    "hash": "c1be3aa90c0a",
+    "lastmod": "2026-09-12"
+  },
+  "/terms": {
+    "hash": "af5c15a2e36d",
+    "lastmod": "2026-09-12"
+  },
+  "/blog/saitis-damzadebis-fasi": {
+    "hash": "0c8503d6417d",
+    "lastmod": "2026-09-12"
+  },
+  "/blog/ramden-khanshi-mzaddeba-saiti": {
+    "hash": "2bac26c908a7",
+    "lastmod": "2026-09-12"
+  },
+  "/blog/facebook-gverdi-tu-saiti": {
+    "hash": "511eb735b5e7",
+    "lastmod": "2026-09-12"
+  },
+  "/blog/aplikaciis-damzadebis-fasi": {
+    "hash": "d3f8a291eaa9",
+    "lastmod": "2026-09-12"
+  },
+  "/blog/wordpress-tu-individualuri-saiti": {
+    "hash": "1236f62410cd",
+    "lastmod": "2026-09-12"
+  },
+  "/blog/domeni-da-hostingi-saqartveloshi": {
+    "hash": "f964c62faaba",
+    "lastmod": "2026-09-12"
+  },
+  "/blog/online-magaziis-fasi": {
+    "hash": "15de3fc7897c",
+    "lastmod": "2026-09-12"
+  },
+  "/blog/website-brief": {
+    "hash": "747d821dc07e",
+    "lastmod": "2026-09-12"
+  },
+  "/blog/online-store-checklist": {
+    "hash": "3271fd4f6c2b",
+    "lastmod": "2026-09-12"
+  },
+  "/blog/why-not-google": {
+    "hash": "4a10da38412e",
+    "lastmod": "2026-09-12"
+  },
+  "/404": {
+    "hash": "07a2a37cb7de",
+    "lastmod": "2026-09-12"
+  },
+  "/en": {
+    "hash": "755b5ea2da5f",
+    "lastmod": "2026-09-12"
+  },
+  "/en/website-development": {
+    "hash": "20894d577235",
+    "lastmod": "2026-09-12"
+  },
+  "/en/ecommerce-development": {
+    "hash": "3fea08d3fa8b",
+    "lastmod": "2026-09-12"
+  },
+  "/en/mobile-app-development": {
+    "hash": "a4843ac772dd",
+    "lastmod": "2026-09-12"
+  },
+  "/en/custom-software": {
+    "hash": "1a2b7e034165",
+    "lastmod": "2026-09-12"
+  },
+  "/en/ui-ux-design": {
+    "hash": "a4460f851bfe",
+    "lastmod": "2026-09-12"
+  },
+  "/en/seo": {
+    "hash": "b5da2d72c6b9",
+    "lastmod": "2026-09-12"
+  },
+  "/en/wordpress-development": {
+    "hash": "6d7dc63a74e9",
+    "lastmod": "2026-09-12"
+  },
+  "/en/corporate-website": {
+    "hash": "a3b54840022a",
+    "lastmod": "2026-09-12"
+  },
+  "/en/landing-page": {
+    "hash": "83398ba3d7a4",
+    "lastmod": "2026-09-12"
+  },
+  "/en/website-maintenance": {
+    "hash": "737c1de2d7ec",
+    "lastmod": "2026-09-12"
+  },
+  "/en/portfolio": {
+    "hash": "fa34c64081d8",
+    "lastmod": "2026-09-12"
+  },
+  "/en/prices": {
+    "hash": "0dc36d08eca0",
+    "lastmod": "2026-09-12"
+  },
+  "/en/about": {
+    "hash": "4f0327b0fe21",
+    "lastmod": "2026-09-12"
+  },
+  "/en/blog": {
+    "hash": "371584a0911c",
+    "lastmod": "2026-09-12"
+  },
+  "/en/faq": {
+    "hash": "10daa16fc3af",
+    "lastmod": "2026-09-12"
+  },
+  "/en/contact": {
+    "hash": "aa135cc0e729",
+    "lastmod": "2026-09-12"
+  },
+  "/en/privacy-policy": {
+    "hash": "702cfb58528e",
+    "lastmod": "2026-09-12"
+  },
+  "/en/terms": {
+    "hash": "c42c2644d58b",
+    "lastmod": "2026-09-12"
+  },
+  "/en/blog/saitis-damzadebis-fasi": {
+    "hash": "3fc99a2ee79c",
+    "lastmod": "2026-09-12"
+  },
+  "/en/blog/ramden-khanshi-mzaddeba-saiti": {
+    "hash": "e099c3cfa48b",
+    "lastmod": "2026-09-12"
+  },
+  "/en/blog/facebook-gverdi-tu-saiti": {
+    "hash": "45f98db976e1",
+    "lastmod": "2026-09-12"
+  },
+  "/en/blog/aplikaciis-damzadebis-fasi": {
+    "hash": "c60a9ba208a0",
+    "lastmod": "2026-09-12"
+  },
+  "/en/blog/wordpress-tu-individualuri-saiti": {
+    "hash": "04ee07febbb9",
+    "lastmod": "2026-09-12"
+  },
+  "/en/blog/domeni-da-hostingi-saqartveloshi": {
+    "hash": "20aaf2fee799",
+    "lastmod": "2026-09-12"
+  },
+  "/en/blog/online-magaziis-fasi": {
+    "hash": "3cce487a3d51",
+    "lastmod": "2026-09-12"
+  },
+  "/en/blog/website-brief": {
+    "hash": "afd058ae6b8d",
+    "lastmod": "2026-09-12"
+  },
+  "/en/blog/online-store-checklist": {
+    "hash": "53e9779973e3",
+    "lastmod": "2026-09-12"
+  },
+  "/en/blog/why-not-google": {
+    "hash": "6b506aaa2bee",
+    "lastmod": "2026-09-12"
+  },
+  "/en/404": {
+    "hash": "29ff458cd011",
+    "lastmod": "2026-09-12"
+  },
+  "/ru": {
+    "hash": "66b38b28a586",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/website-development": {
+    "hash": "2e98db2db9f6",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/ecommerce-development": {
+    "hash": "52efd4e02dc7",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/mobile-app-development": {
+    "hash": "95eeebffa645",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/custom-software": {
+    "hash": "971ac6131f68",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/ui-ux-design": {
+    "hash": "a0ff5902fb00",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/seo": {
+    "hash": "b7563a627fb9",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/wordpress-development": {
+    "hash": "207513485cfc",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/corporate-website": {
+    "hash": "a50bac19c609",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/landing-page": {
+    "hash": "b70cd5f92e64",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/website-maintenance": {
+    "hash": "f696d6c4fef8",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/portfolio": {
+    "hash": "b0d66c782112",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/prices": {
+    "hash": "d100e037d680",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/about": {
+    "hash": "fa45bd02b9b7",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/blog": {
+    "hash": "92a21449d08f",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/faq": {
+    "hash": "4c1d1b45508a",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/contact": {
+    "hash": "48e00ec39a70",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/privacy-policy": {
+    "hash": "c3ad18d66093",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/terms": {
+    "hash": "44ffcc7d6cea",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/blog/saitis-damzadebis-fasi": {
+    "hash": "9c979c083b13",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/blog/ramden-khanshi-mzaddeba-saiti": {
+    "hash": "26f72c366ee6",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/blog/facebook-gverdi-tu-saiti": {
+    "hash": "1b85530138bf",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/blog/aplikaciis-damzadebis-fasi": {
+    "hash": "1a819ba4488b",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/blog/wordpress-tu-individualuri-saiti": {
+    "hash": "a1e2b6ee3fce",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/blog/domeni-da-hostingi-saqartveloshi": {
+    "hash": "a2e834de6c55",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/blog/online-magaziis-fasi": {
+    "hash": "596a17cf011d",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/blog/website-brief": {
+    "hash": "66ee06120bf2",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/blog/online-store-checklist": {
+    "hash": "ddf52a22fa2a",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/blog/why-not-google": {
+    "hash": "555c1251e06d",
+    "lastmod": "2026-09-12"
+  },
+  "/ru/404": {
+    "hash": "ee124ad760a3",
+    "lastmod": "2026-09-12"
+  }
+}

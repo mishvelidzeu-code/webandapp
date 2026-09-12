@@ -2,266 +2,399 @@
   {
     "route": "/",
     "file": "index.html",
-    "title": "webandapp — ვებსაიტები და აპლიკაციები ბიზნესისთვის",
-    "description": "იდეიდან პირველ შეკვეთამდე — ვქმნით ვებსაიტებს, ონლაინ მაღაზიებსა და მობილურ აპლიკაციებს ბიზნესებისთვის საქართველოში.",
-    "h1": "ვებსაიტები და აპლიკაციები, რომლებიც ბიზნესს წინსვლაში ეხმარება.",
+    "title": "საიტის დამზადება და აპლიკაციის შექმნა | webandapp",
+    "description": "საიტის დამზადება, ონლაინ მაღაზიისა და მობილური აპლიკაციის შექმნა ქართული ბიზნესისთვის: წერილობითი შეთანხმება, მობილური დიზაინი და SEO საფუძველი. მოგვწერეთ.",
+    "h1": "საიტის დამზადება და აპლიკაციების შექმნა თქვენი ბიზნესისთვის.",
     "lang": "ka",
     "slug": "",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
-      "WebPage",
-      "Organization",
+      "ProfessionalService",
       "WebSite",
+      "WebPage",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/website-development",
     "file": "website-development/index.html",
-    "title": "ვებსაიტის დამზადება საქართველოში | webandapp",
-    "description": "ვებსაიტის დამზადება ქართული ბიზნესისთვის: სტრუქტურა, დიზაინი, მობილური ადაპტაცია და ტექნიკური SEO. მოგვწერეთ პროექტის შესაფასებლად.",
-    "h1": "ვებსაიტების დამზადება",
+    "title": "ვებ საიტის დამზადება და ვებ გვერდის შექმნა ბიზნესისთვის | webandapp",
+    "description": "ვებ საიტის დამზადება და ვებ გვერდის შექმნა ბიზნესისთვის: სტრუქტურა, დიზაინი, მობილური ვერსია, SEO საფუძველი, დომენი და ჰოსტინგი. რა შედის და რა მოქმედებს ფასზე.",
+    "h1": "ვებ საიტის დამზადება ბიზნესისთვის",
     "lang": "ka",
     "slug": "website-development",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "Service",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/ecommerce-development",
     "file": "ecommerce-development/index.html",
-    "title": "ონლაინ მაღაზიის შექმნა და დამზადება | webandapp",
-    "description": "ონლაინ მაღაზიის შექმნა: კატალოგი, კალათა, შეკვეთები, გადახდებისა და მიწოდების ინტეგრაციები. დაგეგმეთ თქვენი ინტერნეტ მაღაზია webandapp-თან.",
+    "title": "ონლაინ მაღაზიის შექმნა — ინტერნეტ მაღაზიის დამზადება | webandapp",
+    "description": "ონლაინ მაღაზიის შექმნა და ინტერნეტ მაღაზიის დამზადება საქართველოში: კატალოგი, კალათა, ქართული ბანკებით გადახდა, მიწოდება და შეკვეთების მართვა. 600 ₾-დან.",
     "h1": "ონლაინ მაღაზიის შექმნა",
     "lang": "ka",
     "slug": "ecommerce-development",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "Service",
       "FAQPage"
-    ]
-  },
-  {
-    "route": "/wordpress-development",
-    "file": "wordpress-development/index.html",
-    "title": "WordPress საიტის დამზადება | webandapp",
-    "description": "WordPress საიტის დამზადება კონტენტის მოსახერხებელი მართვით. დიზაინი, გამართული სტრუქტურა, საჭირო მოდულები და განახლებების გეგმა.",
-    "h1": "WordPress საიტის დამზადება",
-    "lang": "ka",
-    "slug": "wordpress-development",
-    "noindex": true,
-    "schemas": [
-      "WebPage",
-      "BreadcrumbList",
-      "Service",
-      "FAQPage"
-    ]
-  },
-  {
-    "route": "/corporate-website",
-    "file": "corporate-website/index.html",
-    "title": "კორპორატიული საიტის შექმნა ბიზნესისთვის | webandapp",
-    "description": "კორპორატიული საიტის შექმნა: მომსახურების გვერდები, კომპანიის ინფორმაცია, კონტენტის მართვა და მრავალენოვანი სტრუქტურა.",
-    "h1": "კორპორატიული საიტის შექმნა",
-    "lang": "ka",
-    "slug": "corporate-website",
-    "noindex": true,
-    "schemas": [
-      "WebPage",
-      "BreadcrumbList",
-      "Service",
-      "FAQPage"
-    ]
-  },
-  {
-    "route": "/landing-page",
-    "file": "landing-page/index.html",
-    "title": "ლენდინგ გვერდის დამზადება | webandapp",
-    "description": "ლენდინგ გვერდის დამზადება ერთი შეთავაზებისთვის: მკაფიო ტექსტი, მობილური დიზაინი, შეკვეთის ფორმა და შედეგის გაზომვა.",
-    "h1": "Landing Page-ის შექმნა",
-    "lang": "ka",
-    "slug": "landing-page",
-    "noindex": true,
-    "schemas": [
-      "WebPage",
-      "BreadcrumbList",
-      "Service",
-      "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/mobile-app-development",
     "file": "mobile-app-development/index.html",
-    "title": "მობილური აპლიკაციის შექმნა და დამზადება — iOS და Android | webandapp",
-    "description": "მობილური აპლიკაციების შექმნა iOS და Android პლატფორმებისთვის: MVP, დიზაინი, სერვერული ნაწილი და გამოქვეყნების მომზადება.",
+    "title": "მობილური აპლიკაციის შექმნა — აპლიკაციის დამზადება iOS და Android | webandapp",
+    "description": "მობილური აპლიკაციის შექმნა iOS და Android პლატფორმებისთვის: MVP, დიზაინი, სერვერული ნაწილი და მაღაზიებში გამოქვეყნება. აპლიკაციის დამზადება 1 100 ₾-დან.",
     "h1": "მობილური აპლიკაციის შექმნა და დამზადება",
     "lang": "ka",
     "slug": "mobile-app-development",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "Service",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/custom-software",
     "file": "custom-software/index.html",
-    "title": "პროგრამული უზრუნველყოფის შექმნა ბიზნესისთვის | webandapp",
-    "description": "ინდივიდუალური პროგრამული უზრუნველყოფა: ბიზნესსისტემები, კლიენტების მართვა, სამუშაო პროცესების ავტომატიზაცია და ინტეგრაციები.",
-    "h1": "ინდივიდუალური პროგრამები",
+    "title": "ინდივიდუალური პროგრამული უზრუნველყოფის შექმნა ბიზნესისთვის | webandapp",
+    "description": "ინდივიდუალური პროგრამული უზრუნველყოფა ბიზნესისთვის: CRM და შეკვეთების სისტემები, პროცესების ავტომატიზაცია, ადმინ-პანელები და ინტეგრაციები არსებულ სისტემებთან.",
+    "h1": "ინდივიდუალური პროგრამული უზრუნველყოფის შექმნა",
     "lang": "ka",
     "slug": "custom-software",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "Service",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/ui-ux-design",
     "file": "ui-ux-design/index.html",
     "title": "UI/UX დიზაინი საიტებისა და აპლიკაციებისთვის | webandapp",
-    "description": "UI/UX დიზაინი: მომხმარებლის გზები, გვერდების სტრუქტურა, ინტერაქტიული პროტოტიპი და დიზაინის სისტემა ვებსაიტისა თუ აპლიკაციისთვის.",
-    "h1": "UI/UX დიზაინი",
+    "description": "UI/UX დიზაინი: მომხმარებლის გზები, გვერდების სტრუქტურა, Figma-ს ინტერაქტიული პროტოტიპი და დიზაინის სისტემა ვებსაიტისა თუ მობილური აპლიკაციისთვის.",
+    "h1": "UI/UX დიზაინი საიტებისა და აპლიკაციებისთვის",
     "lang": "ka",
     "slug": "ui-ux-design",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "Service",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/seo",
     "file": "seo/index.html",
-    "title": "საიტის SEO ოპტიმიზაცია საქართველოში | webandapp",
-    "description": "საიტის SEO ოპტიმიზაცია: ტექნიკური აუდიტი, საკვანძო სიტყვების განაწილება, ქართული კონტენტი და ორგანული შედეგების გაზომვა.",
-    "h1": "საიტის SEO ოპტიმიზაცია",
+    "title": "SEO ოპტიმიზაცია — საიტის ოპტიმიზაცია Google-ისთვის | webandapp",
+    "description": "SEO ოპტიმიზაცია საქართველოში: ტექნიკური აუდიტი, ქართული საკვანძო სიტყვები გვერდებზე, კონტენტის გეგმა, ლოკალური SEO და გაზომვა Search Console-ით. 50 ₾-დან.",
+    "h1": "SEO ოპტიმიზაცია საიტებისა და ონლაინ მაღაზიებისთვის",
     "lang": "ka",
     "slug": "seo",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "Service",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/wordpress-development",
+    "file": "wordpress-development/index.html",
+    "title": "WordPress საიტის დამზადება — თემა, მოდულები, მოვლა | webandapp",
+    "description": "WordPress საიტის დამზადება ბიზნესისთვის: ინდივიდუალური თემა ან ადაპტირებული დიზაინი, მხოლოდ საჭირო მოდულები, WooCommerce, უსაფრთხოება და განახლებების გეგმა.",
+    "h1": "WordPress საიტის დამზადება",
+    "lang": "ka",
+    "slug": "wordpress-development",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/corporate-website",
+    "file": "corporate-website/index.html",
+    "title": "კორპორატიული საიტის შექმნა კომპანიისთვის | webandapp",
+    "description": "კორპორატიული საიტის შექმნა: მომსახურების გვერდები, კომპანიის, გუნდისა და სიახლეების განყოფილებები, დოკუმენტები, მრავალენოვანი სტრუქტურა და რედაქტორების როლები.",
+    "h1": "კორპორატიული საიტის შექმნა",
+    "lang": "ka",
+    "slug": "corporate-website",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/landing-page",
+    "file": "landing-page/index.html",
+    "title": "ლენდინგ გვერდის დამზადება — Landing Page ერთი შეთავაზებისთვის | webandapp",
+    "description": "ლენდინგ გვერდის დამზადება ერთი შეთავაზებისა და სარეკლამო კამპანიისთვის: მკაფიო სტრუქტურა, მობილური დიზაინი, შეკვეთის ფორმა და შედეგის გაზომვა. 250 ₾-დან.",
+    "h1": "ლენდინგ გვერდის დამზადება",
+    "lang": "ka",
+    "slug": "landing-page",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/website-maintenance",
     "file": "website-maintenance/index.html",
     "title": "საიტის ტექნიკური მხარდაჭერა და განახლება | webandapp",
-    "description": "ვებსაიტის ტექნიკური მხარდაჭერა: განახლებები, ხარვეზების გამოსწორება, სარეზერვო ასლები და მუშაობის შემოწმება. მოითხოვეთ აუდიტი.",
-    "h1": "საიტის ტექნიკური მხარდაჭერა",
+    "description": "ვებსაიტის ტექნიკური მხარდაჭერა: განახლებები, ხარვეზების გამოსწორება, სარეზერვო ასლები, უსაფრთხოება, მონიტორინგი და მცირე ცვლილებები — ერთჯერადი ან პერიოდული.",
+    "h1": "საიტის ტექნიკური მხარდაჭერა და განახლება",
     "lang": "ka",
     "slug": "website-maintenance",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "Service",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/portfolio",
     "file": "portfolio/index.html",
     "title": "პორტფოლიო | webandapp",
-    "description": "პროექტების აღწერები დაემატება რეალური მასალებისა და გამოქვეყნების თანხმობის მიღების შემდეგ.",
+    "description": "webandapp-ის პროექტების აღწერები დაემატება კლიენტების თანხმობის შემდეგ. ნამუშევრების ნახვა შესაძლებელია მოთხოვნით.",
     "h1": "პორტფოლიო",
     "lang": "ka",
     "slug": "portfolio",
     "noindex": true,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/prices",
     "file": "prices/index.html",
-    "title": "საიტის დამზადების ფასი და აპლიკაციის ღირებულება | webandapp",
-    "description": "აირჩიეთ ფორმატი. ზუსტი ღირებულება განისაზღვრება ფუნქციების, დიზაინისა და სამუშაოს მოცულობის შეთანხმების შემდეგ.",
-    "h1": "ფასები",
+    "title": "საიტის დამზადების ფასი და აპლიკაციის ღირებულება 2026 | webandapp",
+    "description": "რა ღირს საიტის დამზადება და აპლიკაციის შექმნა: საწყისი ფასები, რა შედის ღირებულებაში, რა ზრდის ფასს და რა ინფორმაციაა საჭირო ზუსტი შეთავაზებისთვის.",
+    "h1": "საიტის დამზადების ფასი და აპლიკაციის შექმნის ღირებულება",
     "lang": "ka",
     "slug": "prices",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
+      "OfferCatalog",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/about",
     "file": "about/index.html",
-    "title": "ჩვენ შესახებ | webandapp",
-    "description": "ვებსაიტები, აპლიკაციები და ბიზნესსისტემები. იდეის გააზრებიდან ტექნიკურ შესრულებამდე.",
-    "h1": "ჩვენ შესახებ",
+    "title": "ჩვენ შესახებ — webandapp, ვებ სტუდია თბილისში",
+    "description": "webandapp — ვებ სტუდია თბილისში: საიტები, ონლაინ მაღაზიები და მობილური აპლიკაციები ბიზნესებისთვის მთელ საქართველოში. როგორ ვმუშაობთ და რაზე ვაგებთ პასუხს.",
+    "h1": "webandapp — ვებსაიტებისა და აპლიკაციების სტუდია თბილისში",
     "lang": "ka",
     "slug": "about",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
-      "WebPage",
-      "Organization",
+      "ProfessionalService",
       "WebSite",
+      "WebPage",
       "BreadcrumbList"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/blog",
     "file": "blog/index.html",
-    "title": "ბლოგი | webandapp",
-    "description": "პრაქტიკული გზამკვლევები სწორი გადაწყვეტილებისთვის.",
+    "title": "ბლოგი — საიტები, აპლიკაციები, ფასები და ვადები | webandapp",
+    "description": "პრაქტიკული სტატიები ბიზნესისთვის: რა ღირს საიტი და აპლიკაცია, რამდენ ხანში მზადდება, WordPress თუ ინდივიდუალური კოდი, დომენი და ჰოსტინგი საქართველოში.",
     "h1": "ბლოგი",
     "lang": "ka",
     "slug": "blog",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/faq",
     "file": "faq/index.html",
-    "title": "ხშირი კითხვები | webandapp",
-    "description": "აქ არის პასუხები საკითხებზე, რომლებიც პროექტის დაწყებამდე დაგეხმარებათ.",
-    "h1": "ხშირი კითხვები",
+    "title": "ხშირი კითხვები საიტისა და აპლიკაციის შეკვეთაზე | webandapp",
+    "description": "პასუხები საიტისა და აპლიკაციის შეკვეთის კითხვებზე: ფასები, ვადები, დომენი და ჰოსტინგი, SEO, მხარდაჭერა და თანამშრომლობის პროცესი.",
+    "h1": "ხშირი კითხვები საიტისა და აპლიკაციის შეკვეთაზე",
     "lang": "ka",
     "slug": "faq",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/contact",
     "file": "contact/index.html",
-    "title": "კონტაქტი | webandapp",
-    "description": "აღწერეთ, რას აკეთებს თქვენი ბიზნესი და რა გსურთ შექმნათ. საჭირო დეტალებს შემდეგ ერთად დავაზუსტებთ.",
+    "title": "კონტაქტი — მოგვწერეთ ან დაგვირეკეთ | webandapp",
+    "description": "მოგვწერეთ პროექტის შესახებ ან დაგვირეკეთ: +995 599 30 84 14. ვემსახურებით ბიზნესებს მთელ საქართველოში — თბილისში, ბათუმში, ქუთაისში და დისტანციურად.",
     "h1": "კონტაქტი",
     "lang": "ka",
     "slug": "contact",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/privacy-policy",
@@ -273,9 +406,17 @@
     "slug": "privacy-policy",
     "noindex": true,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/terms",
@@ -287,54 +428,247 @@
     "slug": "terms",
     "noindex": true,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/blog/saitis-damzadebis-fasi",
+    "file": "blog/saitis-damzadebis-fasi/index.html",
+    "title": "რა ღირს საიტის დამზადება საქართველოში 2026 წელს | webandapp",
+    "description": "საიტის დამზადების ფასი საქართველოში: რა განსაზღვრავს ღირებულებას, რა შედის ფასში, რა არის ფარული ხარჯი და როგორ შეადაროთ სააგენტოების შეთავაზებები ერთმანეთს.",
+    "h1": "რა ღირს საიტის დამზადება საქართველოში 2026 წელს",
+    "lang": "ka",
+    "slug": "blog/saitis-damzadebis-fasi",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/blog/ramden-khanshi-mzaddeba-saiti",
+    "file": "blog/ramden-khanshi-mzaddeba-saiti/index.html",
+    "title": "რამდენ ხანში მზადდება საიტი — ვადები ტიპების მიხედვით | webandapp",
+    "description": "რამდენ ხანში მზადდება ვებსაიტი: ორიენტირები ლენდინგისთვის, ბიზნეს საიტისა და ონლაინ მაღაზიისთვის, ეტაპების ხანგრძლივობა და რა აჭიანურებს პროექტს.",
+    "h1": "რამდენ ხანში მზადდება საიტი — ვადები ტიპების მიხედვით",
+    "lang": "ka",
+    "slug": "blog/ramden-khanshi-mzaddeba-saiti",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/blog/facebook-gverdi-tu-saiti",
+    "file": "blog/facebook-gverdi-tu-saiti/index.html",
+    "title": "Facebook გვერდი თუ ვებსაიტი — რომელი სჭირდება ბიზნესს? | webandapp",
+    "description": "გაქვთ Facebook და Instagram გვერდი და ფიქრობთ, საიტი მართლა გჭირდებათ თუ არა? როდის საკმარისია სოცქსელი, რას იძლევა საკუთარი საიტი და როგორ მუშაობს ორივე ერთად.",
+    "h1": "Facebook გვერდი თუ ვებსაიტი — რომელი სჭირდება ბიზნესს?",
+    "lang": "ka",
+    "slug": "blog/facebook-gverdi-tu-saiti",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/blog/aplikaciis-damzadebis-fasi",
+    "file": "blog/aplikaciis-damzadebis-fasi/index.html",
+    "title": "რა ღირს მობილური აპლიკაციის შექმნა — რაზეა დამოკიდებული ფასი | webandapp",
+    "description": "აპლიკაციის დამზადების ფასი: რა განსაზღვრავს ღირებულებას, MVP თუ სრული ვერსია, iOS და Android ერთად თუ ცალკე, სერვერისა და მაღაზიების ხარჯები, ბიუჯეტი ეტაპობრივად.",
+    "h1": "რა ღირს მობილური აპლიკაციის შექმნა — რაზეა დამოკიდებული ფასი",
+    "lang": "ka",
+    "slug": "blog/aplikaciis-damzadebis-fasi",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/blog/wordpress-tu-individualuri-saiti",
+    "file": "blog/wordpress-tu-individualuri-saiti/index.html",
+    "title": "WordPress თუ ინდივიდუალური საიტი — რა ავირჩიოთ | webandapp",
+    "description": "WordPress თუ ინდივიდუალური კოდი: შედარება ფასის, სისწრაფის, უსაფრთხოების, მოვლის ხარჯისა და გაფართოების მიხედვით — რომელი ერგება თქვენს ბიზნესს.",
+    "h1": "WordPress თუ ინდივიდუალური საიტი — რა ავირჩიოთ",
+    "lang": "ka",
+    "slug": "blog/wordpress-tu-individualuri-saiti",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/blog/domeni-da-hostingi-saqartveloshi",
+    "file": "blog/domeni-da-hostingi-saqartveloshi/index.html",
+    "title": "დომენი და ჰოსტინგი საქართველოში — რა უნდა იცოდეთ საიტის შეკვეთამდე | webandapp",
+    "description": "დომენის რეგისტრაცია (.ge, .com) და ჰოსტინგის არჩევა საქართველოში: ვის სახელზე უნდა იყოს, რომელი ჰოსტინგი ერგება რომელ საიტს, SSL, DNS, ელფოსტა და წლიური ხარჯები.",
+    "h1": "დომენი და ჰოსტინგი საქართველოში — რა უნდა იცოდეთ საიტის შეკვეთამდე",
+    "lang": "ka",
+    "slug": "blog/domeni-da-hostingi-saqartveloshi",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/blog/online-magaziis-fasi",
+    "file": "blog/online-magaziis-fasi/index.html",
+    "title": "რა ღირს ონლაინ მაღაზიის შექმნა საქართველოში | webandapp",
+    "description": "ონლაინ მაღაზიის შექმნის ფასი: რა განსაზღვრავს ღირებულებას, WooCommerce თუ ინდივიდუალური მაღაზია, ქართული ბანკებით გადახდა, მიწოდება, კატალოგი და მიმდინარე ხარჯები.",
+    "h1": "რა ღირს ონლაინ მაღაზიის შექმნა საქართველოში",
+    "lang": "ka",
+    "slug": "blog/online-magaziis-fasi",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/blog/website-brief",
     "file": "blog/website-brief/index.html",
     "title": "რა ინფორმაცია უნდა მოამზადოთ საიტის შეკვეთამდე | webandapp",
-    "description": "პრაქტიკული ჩამონათვალი: მიზანი, აუდიტორია, გვერდები, კონტენტი, ფუნქციები და წვდომები, რომლებიც საიტის დაგეგმვას ამარტივებს.",
+    "description": "პრაქტიკული ჩამონათვალი საიტის შეკვეთამდე: მიზანი, აუდიტორია, გვერდების სია, ტექსტები და ფოტოები, ფუნქციები, ინტეგრაციები და წვდომები — რაც პროექტს აჩქარებს.",
     "h1": "რა ინფორმაცია უნდა მოამზადოთ საიტის შეკვეთამდე",
     "lang": "ka",
     "slug": "blog/website-brief",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "BlogPosting"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/blog/online-store-checklist",
     "file": "blog/online-store-checklist/index.html",
     "title": "რა უნდა დაგეგმოთ ონლაინ მაღაზიის შექმნამდე | webandapp",
-    "description": "კატალოგი, გადახდა, მიწოდება, დაბრუნება და შეკვეთების მართვა — საკითხები, რომლებიც ონლაინ მაღაზიის ფასსა და ვადას განსაზღვრავს.",
+    "description": "ონლაინ მაღაზიის ჩამონათვალი: პროდუქტის მონაცემები, შეკვეთის გზა, გადახდა, მიწოდება, იურიდიული ტექსტები და ტესტირება — რაც მაღაზიის ფასსა და ვადას განსაზღვრავს.",
     "h1": "რა უნდა დაგეგმოთ ონლაინ მაღაზიის შექმნამდე",
     "lang": "ka",
     "slug": "blog/online-store-checklist",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "BlogPosting"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/blog/why-not-google",
     "file": "blog/why-not-google/index.html",
-    "title": "რატომ არ ჩანს ვებსაიტი Google-ში | webandapp",
-    "description": "ინდექსაცია, ტექნიკური დაბრკოლებები, კონტენტი და კონკურენცია — როგორ ვიპოვოთ საიტის დაბალი ხილვადობის მიზეზი.",
-    "h1": "რატომ არ ჩანს ვებსაიტი Google-ში",
+    "title": "რატომ არ ჩანს ვებსაიტი Google-ში — მიზეზების პოვნა ნაბიჯ-ნაბიჯ | webandapp",
+    "description": "საიტი Google-ში არ ჩანს? ინდექსაცია, ტექნიკური დაბრკოლებები, კონტენტი, კონკურენცია და ავტორიტეტი — როგორ იპოვოთ რეალური მიზეზი Search Console-ით ნაბიჯ-ნაბიჯ.",
+    "h1": "რატომ არ ჩანს ვებსაიტი Google-ში — მიზეზების პოვნა ნაბიჯ-ნაბიჯ",
     "lang": "ka",
     "slug": "blog/why-not-google",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "BlogPosting"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/404",
@@ -346,273 +680,414 @@
     "slug": "404",
     "noindex": true,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
-    "route": "/en/",
+    "route": "/en",
     "file": "en/index.html",
-    "title": "webandapp — Websites & apps for businesses in Georgia",
-    "description": "From your idea to the first enquiry. We build websites, online stores and mobile apps for businesses across Georgia.",
-    "h1": "Websites and apps that help your business move forward.",
+    "title": "Website & app development in Georgia | webandapp",
+    "description": "Website, online store and mobile app development for businesses in Georgia: written scope, mobile-first design and SEO foundations. Send a short brief for an estimate.",
+    "h1": "Website and app development for businesses in Georgia.",
     "lang": "en",
     "slug": "",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
-      "WebPage",
-      "Organization",
+      "ProfessionalService",
       "WebSite",
+      "WebPage",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/en/website-development",
     "file": "en/website-development/index.html",
-    "title": "Website development | webandapp",
-    "description": "Websites for small businesses, service companies and growing brands in Georgia. We plan each page around what visitors need to understand and the action they should take.",
-    "h1": "Website development",
+    "title": "Website development for businesses in Georgia | webandapp",
+    "description": "Website development for businesses in Georgia: structure, design, mobile version, SEO foundations, domain and hosting. What is included and what affects the price.",
+    "h1": "Website development for businesses",
     "lang": "en",
     "slug": "website-development",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "Service",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/en/ecommerce-development",
     "file": "en/ecommerce-development/index.html",
-    "title": "Ecommerce development | webandapp",
-    "description": "Online stores built around your catalogue, fulfilment rules and customers in Georgia. We connect product discovery with a clear checkout and manageable orders.",
-    "h1": "Ecommerce development",
+    "title": "Online store development in Georgia — ecommerce websites | webandapp",
+    "description": "Online store development in Georgia: catalogue, cart, payment through Georgian banks, delivery rules and order management. From GEL 600.",
+    "h1": "Online store development",
     "lang": "en",
     "slug": "ecommerce-development",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "Service",
       "FAQPage"
-    ]
-  },
-  {
-    "route": "/en/wordpress-development",
-    "file": "en/wordpress-development/index.html",
-    "title": "WordPress development | webandapp",
-    "description": "WordPress websites for businesses that regularly update pages, articles and news. We design a content structure your team can manage.",
-    "h1": "WordPress development",
-    "lang": "en",
-    "slug": "wordpress-development",
-    "noindex": true,
-    "schemas": [
-      "WebPage",
-      "BreadcrumbList",
-      "Service",
-      "FAQPage"
-    ]
-  },
-  {
-    "route": "/en/corporate-website",
-    "file": "en/corporate-website/index.html",
-    "title": "Corporate websites | webandapp",
-    "description": "A clear home for your company’s services, information and contact routes. We organise content for customers, partners and other audiences.",
-    "h1": "Corporate websites",
-    "lang": "en",
-    "slug": "corporate-website",
-    "noindex": true,
-    "schemas": [
-      "WebPage",
-      "BreadcrumbList",
-      "Service",
-      "FAQPage"
-    ]
-  },
-  {
-    "route": "/en/landing-page",
-    "file": "en/landing-page/index.html",
-    "title": "Landing pages | webandapp",
-    "description": "A focused page for one offer and one main action. Useful for a new service, product launch or campaign.",
-    "h1": "Landing pages",
-    "lang": "en",
-    "slug": "landing-page",
-    "noindex": true,
-    "schemas": [
-      "WebPage",
-      "BreadcrumbList",
-      "Service",
-      "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/en/mobile-app-development",
     "file": "en/mobile-app-development/index.html",
-    "title": "Mobile app development | webandapp",
-    "description": "iOS and Android apps for repeat tasks: bookings, orders, personal accounts and business operations. The first version focuses on the functions needed to test the core idea.",
-    "h1": "Mobile app development",
+    "title": "Mobile app development — iOS and Android apps in Georgia | webandapp",
+    "description": "Mobile app development for iOS and Android: MVP, design, backend and store publication. App development from GEL 1,100.",
+    "h1": "Mobile app development for iOS and Android",
     "lang": "en",
     "slug": "mobile-app-development",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "Service",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/en/custom-software",
     "file": "en/custom-software/index.html",
-    "title": "Custom software | webandapp",
-    "description": "Software shaped around your workflow. We map processes, roles and data before planning tools that reduce repetitive work.",
-    "h1": "Custom software",
+    "title": "Custom software development for businesses | webandapp",
+    "description": "Custom software for businesses: CRM and order systems, workflow automation, admin panels and integrations with existing systems.",
+    "h1": "Custom software development",
     "lang": "en",
     "slug": "custom-software",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "Service",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/en/ui-ux-design",
     "file": "en/ui-ux-design/index.html",
-    "title": "UI/UX design | webandapp",
-    "description": "Design starts with the task a person needs to complete. We connect visual identity with clear structure, understandable text and usable controls.",
-    "h1": "UI/UX design",
+    "title": "UI/UX design for websites and apps | webandapp",
+    "description": "UI/UX design: user journeys, page structure, an interactive Figma prototype and a design system for a website or mobile app.",
+    "h1": "UI/UX design for websites and apps",
     "lang": "en",
     "slug": "ui-ux-design",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "Service",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/en/seo",
     "file": "en/seo/index.html",
-    "title": "SEO optimisation | webandapp",
-    "description": "Help search engines understand your pages and visitors find useful answers. We start with an audit and a prioritised plan.",
-    "h1": "SEO optimisation",
+    "title": "SEO optimisation — search engine optimisation in Georgia | webandapp",
+    "description": "SEO optimisation in Georgia: technical audit, Georgian keyword mapping, content plan, local SEO and measurement through Search Console. From GEL 50.",
+    "h1": "SEO optimisation for websites and online stores",
     "lang": "en",
     "slug": "seo",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "Service",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/en/wordpress-development",
+    "file": "en/wordpress-development/index.html",
+    "title": "WordPress website development — theme, plugins, maintenance | webandapp",
+    "description": "WordPress development for businesses: a custom or adapted theme, only the plugins you need, WooCommerce, security and an update plan.",
+    "h1": "WordPress website development",
+    "lang": "en",
+    "slug": "wordpress-development",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/en/corporate-website",
+    "file": "en/corporate-website/index.html",
+    "title": "Corporate website development for companies | webandapp",
+    "description": "Corporate website development: service pages, company, team and news sections, documents, a multilingual structure and editor roles.",
+    "h1": "Corporate website development",
+    "lang": "en",
+    "slug": "corporate-website",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/en/landing-page",
+    "file": "en/landing-page/index.html",
+    "title": "Landing page development for one offer or campaign | webandapp",
+    "description": "Landing page development for one offer and an advertising campaign: clear structure, mobile design, enquiry form and result measurement. From GEL 250.",
+    "h1": "Landing page development",
+    "lang": "en",
+    "slug": "landing-page",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/en/website-maintenance",
     "file": "en/website-maintenance/index.html",
-    "title": "Website maintenance | webandapp",
-    "description": "Updates, checks and changes for a live website. Support scope follows your system and the functions that matter to your business.",
-    "h1": "Website maintenance",
+    "title": "Website maintenance and updates | webandapp",
+    "description": "Website maintenance: updates, bug fixes, backups, security, monitoring and small changes. One-off or recurring format.",
+    "h1": "Website maintenance and updates",
     "lang": "en",
     "slug": "website-maintenance",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "Service",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/en/portfolio",
     "file": "en/portfolio/index.html",
     "title": "Portfolio | webandapp",
-    "description": "Project case studies will be added once real materials and publication permission are available.",
+    "description": "webandapp project case studies will be published with client permission. Examples are available on request.",
     "h1": "Portfolio",
     "lang": "en",
     "slug": "portfolio",
     "noindex": true,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/en/prices",
     "file": "en/prices/index.html",
-    "title": "Website development cost and app pricing | webandapp",
-    "description": "Choose a project format. A final quote follows agreement on functionality, design and scope.",
-    "h1": "Pricing",
+    "title": "Website development cost and app pricing 2026 | webandapp",
+    "description": "How much a website or app costs: starting prices, what the price includes, what increases it and what we need to prepare an exact quote.",
+    "h1": "Website development cost and app pricing",
     "lang": "en",
     "slug": "prices",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
+      "OfferCatalog",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/en/about",
     "file": "en/about/index.html",
-    "title": "About | webandapp",
-    "description": "Websites, apps and business systems. From understanding the idea to building it.",
-    "h1": "About",
+    "title": "About webandapp — a web studio in Tbilisi, Georgia",
+    "description": "webandapp is a web studio in Tbilisi building websites, online stores and mobile apps for businesses across Georgia — how we work and what we stand behind.",
+    "h1": "webandapp — a website and app studio in Tbilisi",
     "lang": "en",
     "slug": "about",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
-      "WebPage",
-      "Organization",
+      "ProfessionalService",
       "WebSite",
+      "WebPage",
       "BreadcrumbList"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/en/blog",
     "file": "en/blog/index.html",
-    "title": "Insights | webandapp",
-    "description": "Practical guides to help businesses plan and compare digital projects.",
+    "title": "Insights — websites, apps, prices and timelines | webandapp",
+    "description": "Practical articles for businesses: what a website or app costs, how long it takes, WordPress or custom code, domains and hosting in Georgia.",
     "h1": "Insights",
     "lang": "en",
     "slug": "blog",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/en/faq",
     "file": "en/faq/index.html",
-    "title": "FAQ | webandapp",
-    "description": "Answers to the practical questions that help you plan a project.",
-    "h1": "FAQ",
+    "title": "FAQ — ordering a website or app | webandapp",
+    "description": "Answers about ordering a website or app: prices, timelines, domains and hosting, SEO, support and how the collaboration works.",
+    "h1": "Frequently asked questions about ordering a website or app",
     "lang": "en",
     "slug": "faq",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/en/contact",
     "file": "en/contact/index.html",
-    "title": "Contact | webandapp",
-    "description": "Describe your business and what you would like to build. We can clarify the details together.",
+    "title": "Contact — write or call us | webandapp",
+    "description": "Tell us about your project or call +995 599 30 84 14. We work with businesses across Georgia — Tbilisi, Batumi, Kutaisi and remotely.",
     "h1": "Contact",
     "lang": "en",
     "slug": "contact",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/en/privacy-policy",
@@ -624,9 +1099,17 @@
     "slug": "privacy-policy",
     "noindex": true,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/en/terms",
@@ -638,54 +1121,247 @@
     "slug": "terms",
     "noindex": true,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/en/blog/saitis-damzadebis-fasi",
+    "file": "en/blog/saitis-damzadebis-fasi/index.html",
+    "title": "How much does a website cost in Georgia in 2026? | webandapp",
+    "description": "Website development cost in Georgia: what determines the price, what should be included, what the hidden costs are and how to compare agency offers fairly.",
+    "h1": "How much does a website cost in Georgia in 2026?",
+    "lang": "en",
+    "slug": "blog/saitis-damzadebis-fasi",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/en/blog/ramden-khanshi-mzaddeba-saiti",
+    "file": "en/blog/ramden-khanshi-mzaddeba-saiti/index.html",
+    "title": "How long does it take to build a website — timelines by type | webandapp",
+    "description": "How long a website takes: orientation for landing pages, business websites and online stores, the duration of each stage and what delays projects most often.",
+    "h1": "How long does it take to build a website — timelines by type",
+    "lang": "en",
+    "slug": "blog/ramden-khanshi-mzaddeba-saiti",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/en/blog/facebook-gverdi-tu-saiti",
+    "file": "en/blog/facebook-gverdi-tu-saiti/index.html",
+    "title": "Facebook page or website — which does a business need? | webandapp",
+    "description": "You have a Facebook and Instagram page and wonder whether you need a website. When social media is enough, what your own site adds and how both work together.",
+    "h1": "Facebook page or website — which does a business need?",
+    "lang": "en",
+    "slug": "blog/facebook-gverdi-tu-saiti",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/en/blog/aplikaciis-damzadebis-fasi",
+    "file": "en/blog/aplikaciis-damzadebis-fasi/index.html",
+    "title": "How much does a mobile app cost — what determines the price | webandapp",
+    "description": "Mobile app development cost: what drives the price, MVP versus full version, iOS and Android together or apart, server and store costs, and staged budgeting.",
+    "h1": "How much does a mobile app cost — what determines the price",
+    "lang": "en",
+    "slug": "blog/aplikaciis-damzadebis-fasi",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/en/blog/wordpress-tu-individualuri-saiti",
+    "file": "en/blog/wordpress-tu-individualuri-saiti/index.html",
+    "title": "WordPress or a custom website — which should you choose? | webandapp",
+    "description": "WordPress versus custom code compared by price, speed, security, maintenance cost and extensibility. When each makes sense and which fits your business.",
+    "h1": "WordPress or a custom website — which should you choose?",
+    "lang": "en",
+    "slug": "blog/wordpress-tu-individualuri-saiti",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/en/blog/domeni-da-hostingi-saqartveloshi",
+    "file": "en/blog/domeni-da-hostingi-saqartveloshi/index.html",
+    "title": "Domains and hosting in Georgia — what to know before ordering a website | webandapp",
+    "description": "Registering a domain (.ge, .com) and choosing hosting in Georgia: whose name it should be in, which hosting fits which site, SSL, DNS, email and annual costs.",
+    "h1": "Domains and hosting in Georgia — what to know before ordering a website",
+    "lang": "en",
+    "slug": "blog/domeni-da-hostingi-saqartveloshi",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/en/blog/online-magaziis-fasi",
+    "file": "en/blog/online-magaziis-fasi/index.html",
+    "title": "How much does an online store cost in Georgia? | webandapp",
+    "description": "Online store development cost: what sets the price, WooCommerce or a custom store, payments with Georgian banks, delivery, catalogue and running costs.",
+    "h1": "How much does an online store cost in Georgia?",
+    "lang": "en",
+    "slug": "blog/online-magaziis-fasi",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/en/blog/website-brief",
     "file": "en/blog/website-brief/index.html",
     "title": "What to prepare before ordering a website | webandapp",
-    "description": "A practical checklist covering goals, audiences, pages, content, features and access.",
+    "description": "A practical checklist before ordering a website: goal, audience, page list, text and photos, features, integrations and access — what speeds up the project.",
     "h1": "What to prepare before ordering a website",
     "lang": "en",
     "slug": "blog/website-brief",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "BlogPosting"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/en/blog/online-store-checklist",
     "file": "en/blog/online-store-checklist/index.html",
     "title": "What to plan before building an online store | webandapp",
-    "description": "Catalogue, payment, delivery, returns and order management — the choices that determine scope.",
+    "description": "Online store checklist: product data, order journey, payment methods, delivery rules, policies and testing — the decisions that set a store’s price and timeline.",
     "h1": "What to plan before building an online store",
     "lang": "en",
     "slug": "blog/online-store-checklist",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "BlogPosting"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/en/blog/why-not-google",
     "file": "en/blog/why-not-google/index.html",
-    "title": "Why a website does not appear in Google | webandapp",
-    "description": "Indexing, technical barriers, content and competition — how to investigate low search visibility.",
-    "h1": "Why a website does not appear in Google",
+    "title": "Why a website does not appear in Google — finding the cause step by step | webandapp",
+    "description": "Your site is not showing in Google? Indexing, technical barriers, content, competition and authority — how to find the real cause with Search Console, step by step.",
+    "h1": "Why a website does not appear in Google — finding the cause step by step",
     "lang": "en",
     "slug": "blog/why-not-google",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "BlogPosting"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/en/404",
@@ -697,273 +1373,414 @@
     "slug": "404",
     "noindex": true,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
-    "route": "/ru/",
+    "route": "/ru",
     "file": "ru/index.html",
-    "title": "webandapp — Сайты и приложения для бизнеса в Грузии",
-    "description": "От идеи до первого обращения. Создаём сайты, интернет-магазины и мобильные приложения для бизнеса по всей Грузии.",
-    "h1": "Сайты и приложения, которые помогают бизнесу двигаться вперёд.",
+    "title": "Разработка сайтов и приложений в Грузии | webandapp",
+    "description": "Разработка сайтов, интернет-магазинов и мобильных приложений для бизнеса в Грузии: письменное соглашение, мобильный дизайн и основа для SEO. Напишите нам.",
+    "h1": "Разработка сайтов и приложений для вашего бизнеса в Грузии.",
     "lang": "ru",
     "slug": "",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
-      "WebPage",
-      "Organization",
+      "ProfessionalService",
       "WebSite",
+      "WebPage",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/ru/website-development",
     "file": "ru/website-development/index.html",
-    "title": "Разработка сайтов | webandapp",
-    "description": "Создаём сайты для малого бизнеса, сервисных компаний и новых брендов в Грузии. Структура каждой страницы помогает посетителю разобраться в предложении и отправить запрос.",
-    "h1": "Разработка сайтов",
+    "title": "Разработка сайтов для бизнеса в Грузии | webandapp",
+    "description": "Разработка сайтов для бизнеса в Грузии: структура, дизайн, мобильная версия, основа для SEO, домен и хостинг. Что входит в услугу и что влияет на цену и сроки.",
+    "h1": "Разработка сайтов для бизнеса",
     "lang": "ru",
     "slug": "website-development",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "Service",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/ru/ecommerce-development",
     "file": "ru/ecommerce-development/index.html",
-    "title": "Создание интернет-магазинов | webandapp",
-    "description": "Интернет-магазины с учётом вашего каталога, правил доставки и покупателей в Грузии. Продумываем путь от выбора товара до оплаты и обработки заказа.",
-    "h1": "Создание интернет-магазинов",
+    "title": "Создание интернет-магазина в Грузии — разработка магазина | webandapp",
+    "description": "Создание интернет-магазина в Грузии: каталог, корзина, оплата через грузинские банки, правила доставки и управление заказами. От 600 ₾.",
+    "h1": "Создание интернет-магазина",
     "lang": "ru",
     "slug": "ecommerce-development",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "Service",
       "FAQPage"
-    ]
-  },
-  {
-    "route": "/ru/wordpress-development",
-    "file": "ru/wordpress-development/index.html",
-    "title": "Разработка сайтов на WordPress | webandapp",
-    "description": "Сайты на WordPress для компаний, которые регулярно обновляют страницы, статьи и новости. Продумываем структуру контента, удобную вашей команде.",
-    "h1": "Разработка сайтов на WordPress",
-    "lang": "ru",
-    "slug": "wordpress-development",
-    "noindex": true,
-    "schemas": [
-      "WebPage",
-      "BreadcrumbList",
-      "Service",
-      "FAQPage"
-    ]
-  },
-  {
-    "route": "/ru/corporate-website",
-    "file": "ru/corporate-website/index.html",
-    "title": "Корпоративные сайты | webandapp",
-    "description": "Единое пространство для услуг, информации о компании и контактов. Структуру контента строим с учётом клиентов, партнёров и других аудиторий.",
-    "h1": "Корпоративные сайты",
-    "lang": "ru",
-    "slug": "corporate-website",
-    "noindex": true,
-    "schemas": [
-      "WebPage",
-      "BreadcrumbList",
-      "Service",
-      "FAQPage"
-    ]
-  },
-  {
-    "route": "/ru/landing-page",
-    "file": "ru/landing-page/index.html",
-    "title": "Создание лендингов | webandapp",
-    "description": "Страница для одного предложения и одного основного действия. Подходит для новой услуги, запуска продукта или рекламной кампании.",
-    "h1": "Создание лендингов",
-    "lang": "ru",
-    "slug": "landing-page",
-    "noindex": true,
-    "schemas": [
-      "WebPage",
-      "BreadcrumbList",
-      "Service",
-      "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/ru/mobile-app-development",
     "file": "ru/mobile-app-development/index.html",
-    "title": "Разработка мобильных приложений | webandapp",
-    "description": "Приложения для iOS и Android: бронирование, заказы, личный кабинет и рабочие процессы. В первую версию включаем функции, необходимые для проверки основной идеи.",
-    "h1": "Разработка мобильных приложений",
+    "title": "Разработка мобильных приложений — iOS и Android в Грузии | webandapp",
+    "description": "Разработка мобильных приложений для iOS и Android: MVP, дизайн, серверная часть и публикация в магазинах. Создание приложения от 1 100 ₾.",
+    "h1": "Разработка мобильных приложений для iOS и Android",
     "lang": "ru",
     "slug": "mobile-app-development",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "Service",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/ru/custom-software",
     "file": "ru/custom-software/index.html",
-    "title": "Индивидуальное программное обеспечение | webandapp",
-    "description": "Программы под ваши рабочие процессы. Сначала описываем задачи, роли и данные, затем планируем автоматизацию повторяющейся работы.",
-    "h1": "Индивидуальное программное обеспечение",
+    "title": "Разработка индивидуального программного обеспечения для бизнеса | webandapp",
+    "description": "Индивидуальное программное обеспечение для бизнеса: CRM и системы заказов, автоматизация рабочих процессов, админ-панели и интеграции с существующими системами.",
+    "h1": "Разработка индивидуального программного обеспечения",
     "lang": "ru",
     "slug": "custom-software",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "Service",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/ru/ui-ux-design",
     "file": "ru/ui-ux-design/index.html",
-    "title": "UI/UX дизайн | webandapp",
-    "description": "Дизайн начинается с задачи пользователя. Соединяем визуальный стиль с понятной структурой, ясными текстами и удобными действиями.",
-    "h1": "UI/UX дизайн",
+    "title": "UI/UX дизайн для сайтов и приложений | webandapp",
+    "description": "UI/UX дизайн: пользовательские пути, структура страниц, интерактивный прототип в Figma и дизайн-система для сайта или мобильного приложения.",
+    "h1": "UI/UX дизайн для сайтов и приложений",
     "lang": "ru",
     "slug": "ui-ux-design",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "Service",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/ru/seo",
     "file": "ru/seo/index.html",
-    "title": "SEO оптимизация | webandapp",
-    "description": "Помогаем поисковым системам понимать страницы, а посетителям — находить полезные ответы. Начинаем с аудита и плана приоритетов.",
-    "h1": "SEO оптимизация",
+    "title": "SEO оптимизация — продвижение сайта в Google в Грузии | webandapp",
+    "description": "SEO оптимизация в Грузии: технический аудит, грузинские ключевые слова по страницам, контент-план, локальное SEO и измерение через Search Console. От 50 ₾.",
+    "h1": "SEO оптимизация сайтов и интернет-магазинов",
     "lang": "ru",
     "slug": "seo",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "Service",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/ru/wordpress-development",
+    "file": "ru/wordpress-development/index.html",
+    "title": "Разработка сайта на WordPress — тема, плагины, поддержка | webandapp",
+    "description": "Разработка сайтов на WordPress для бизнеса: индивидуальная или адаптированная тема, только нужные плагины, WooCommerce, безопасность и план обновлений.",
+    "h1": "Разработка сайта на WordPress",
+    "lang": "ru",
+    "slug": "wordpress-development",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/ru/corporate-website",
+    "file": "ru/corporate-website/index.html",
+    "title": "Создание корпоративного сайта для компании | webandapp",
+    "description": "Создание корпоративного сайта: страницы услуг, разделы компании, команды и новостей, документы, многоязычная структура и роли редакторов.",
+    "h1": "Создание корпоративного сайта",
+    "lang": "ru",
+    "slug": "corporate-website",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/ru/landing-page",
+    "file": "ru/landing-page/index.html",
+    "title": "Создание лендинга для одного предложения или кампании | webandapp",
+    "description": "Создание лендинга для одного предложения и рекламной кампании: понятная структура, мобильный дизайн, форма заявки и измерение результата. От 250 ₾.",
+    "h1": "Создание лендинга",
+    "lang": "ru",
+    "slug": "landing-page",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/ru/website-maintenance",
     "file": "ru/website-maintenance/index.html",
-    "title": "Техническая поддержка сайтов | webandapp",
-    "description": "Обновления, проверки и изменения для работающего сайта. Объём поддержки зависит от системы и важных для бизнеса функций.",
-    "h1": "Техническая поддержка сайтов",
+    "title": "Техническая поддержка и обновление сайта | webandapp",
+    "description": "Техническая поддержка сайта: обновления, исправление ошибок, резервные копии, безопасность, мониторинг и небольшие изменения. Разовый или регулярный формат.",
+    "h1": "Техническая поддержка и обновление сайта",
     "lang": "ru",
     "slug": "website-maintenance",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "Service",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/ru/portfolio",
     "file": "ru/portfolio/index.html",
     "title": "Портфолио | webandapp",
-    "description": "Описания проектов появятся после получения реальных материалов и разрешения на публикацию.",
+    "description": "Описания проектов webandapp появятся с разрешения клиентов. Примеры доступны по запросу.",
     "h1": "Портфолио",
     "lang": "ru",
     "slug": "portfolio",
     "noindex": true,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/ru/prices",
     "file": "ru/prices/index.html",
-    "title": "Стоимость разработки сайта и создания приложения | webandapp",
-    "description": "Выберите формат проекта. Точная цена определяется после согласования функций, дизайна и объёма работ.",
-    "h1": "Стоимость",
+    "title": "Стоимость разработки сайта и приложения 2026 | webandapp",
+    "description": "Сколько стоит сайт или приложение: стартовые цены, что входит в стоимость, что её увеличивает и какая информация нужна для точного предложения.",
+    "h1": "Стоимость разработки сайта и создания приложения",
     "lang": "ru",
     "slug": "prices",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
+      "OfferCatalog",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/ru/about",
     "file": "ru/about/index.html",
-    "title": "О нас | webandapp",
-    "description": "Сайты, приложения и бизнес-системы. От понимания идеи до технической реализации.",
-    "h1": "О нас",
+    "title": "О webandapp — веб-студия в Тбилиси",
+    "description": "webandapp — веб-студия в Тбилиси. Создаём сайты, интернет-магазины и мобильные приложения для бизнеса по всей Грузии. Как мы работаем и за что отвечаем.",
+    "h1": "webandapp — студия сайтов и приложений в Тбилиси",
     "lang": "ru",
     "slug": "about",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
-      "WebPage",
-      "Organization",
+      "ProfessionalService",
       "WebSite",
+      "WebPage",
       "BreadcrumbList"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/ru/blog",
     "file": "ru/blog/index.html",
-    "title": "Блог | webandapp",
-    "description": "Практические руководства для обоснованных решений.",
+    "title": "Блог — сайты, приложения, цены и сроки | webandapp",
+    "description": "Практические статьи для бизнеса: сколько стоит сайт и приложение, сколько занимает разработка, WordPress или индивидуальный код, домен и хостинг в Грузии.",
     "h1": "Блог",
     "lang": "ru",
     "slug": "blog",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/ru/faq",
     "file": "ru/faq/index.html",
-    "title": "Вопросы | webandapp",
-    "description": "Ответы на практические вопросы перед началом проекта.",
-    "h1": "Вопросы",
+    "title": "Вопросы о заказе сайта и приложения | webandapp",
+    "description": "Ответы на вопросы о заказе сайта и приложения: цены, сроки, домен и хостинг, SEO, поддержка и порядок сотрудничества.",
+    "h1": "Частые вопросы о заказе сайта и приложения",
     "lang": "ru",
     "slug": "faq",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "FAQPage"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/ru/contact",
     "file": "ru/contact/index.html",
-    "title": "Контакты | webandapp",
-    "description": "Опишите ваш бизнес и то, что хотите создать. Остальные детали уточним вместе.",
+    "title": "Контакты — напишите или позвоните | webandapp",
+    "description": "Расскажите о проекте или позвоните: +995 599 30 84 14. Работаем с бизнесом по всей Грузии — Тбилиси, Батуми, Кутаиси и удалённо.",
     "h1": "Контакты",
     "lang": "ru",
     "slug": "contact",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/ru/privacy-policy",
@@ -975,9 +1792,17 @@
     "slug": "privacy-policy",
     "noindex": true,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/ru/terms",
@@ -989,54 +1814,247 @@
     "slug": "terms",
     "noindex": true,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/ru/blog/saitis-damzadebis-fasi",
+    "file": "ru/blog/saitis-damzadebis-fasi/index.html",
+    "title": "Сколько стоит разработка сайта в Грузии в 2026 году | webandapp",
+    "description": "Стоимость разработки сайта в Грузии: что определяет цену, что должно входить в стоимость, какие есть скрытые расходы и как честно сравнить предложения агентств.",
+    "h1": "Сколько стоит разработка сайта в Грузии в 2026 году",
+    "lang": "ru",
+    "slug": "blog/saitis-damzadebis-fasi",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/ru/blog/ramden-khanshi-mzaddeba-saiti",
+    "file": "ru/blog/ramden-khanshi-mzaddeba-saiti/index.html",
+    "title": "Сколько времени занимает разработка сайта — сроки по типам | webandapp",
+    "description": "Сколько времени занимает разработка сайта: ориентиры для лендинга, сайта компании и интернет-магазина, длительность этапов и что чаще всего задерживает проект.",
+    "h1": "Сколько времени занимает разработка сайта — сроки по типам",
+    "lang": "ru",
+    "slug": "blog/ramden-khanshi-mzaddeba-saiti",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/ru/blog/facebook-gverdi-tu-saiti",
+    "file": "ru/blog/facebook-gverdi-tu-saiti/index.html",
+    "title": "Страница в Facebook или сайт — что нужно бизнесу? | webandapp",
+    "description": "Есть страницы в Facebook и Instagram, и вы думаете, нужен ли сайт? Когда соцсети достаточно, что даёт собственный сайт и как они работают вместе.",
+    "h1": "Страница в Facebook или сайт — что нужно бизнесу?",
+    "lang": "ru",
+    "slug": "blog/facebook-gverdi-tu-saiti",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/ru/blog/aplikaciis-damzadebis-fasi",
+    "file": "ru/blog/aplikaciis-damzadebis-fasi/index.html",
+    "title": "Сколько стоит создание мобильного приложения — от чего зависит цена | webandapp",
+    "description": "Стоимость разработки приложения: что определяет цену, MVP или полная версия, iOS и Android вместе или отдельно, расходы на сервер и магазины, бюджет поэтапно.",
+    "h1": "Сколько стоит создание мобильного приложения — от чего зависит цена",
+    "lang": "ru",
+    "slug": "blog/aplikaciis-damzadebis-fasi",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/ru/blog/wordpress-tu-individualuri-saiti",
+    "file": "ru/blog/wordpress-tu-individualuri-saiti/index.html",
+    "title": "WordPress или индивидуальный сайт — что выбрать | webandapp",
+    "description": "WordPress или индивидуальный код: сравнение по цене, скорости, безопасности, стоимости поддержки и расширяемости — какой вариант подходит вашему бизнесу.",
+    "h1": "WordPress или индивидуальный сайт — что выбрать",
+    "lang": "ru",
+    "slug": "blog/wordpress-tu-individualuri-saiti",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/ru/blog/domeni-da-hostingi-saqartveloshi",
+    "file": "ru/blog/domeni-da-hostingi-saqartveloshi/index.html",
+    "title": "Домен и хостинг в Грузии — что нужно знать до заказа сайта | webandapp",
+    "description": "Регистрация домена (.ge, .com) и выбор хостинга в Грузии: на чьё имя оформлять, какой хостинг подходит какому сайту, SSL, DNS, почта и годовые расходы.",
+    "h1": "Домен и хостинг в Грузии — что нужно знать до заказа сайта",
+    "lang": "ru",
+    "slug": "blog/domeni-da-hostingi-saqartveloshi",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
+  },
+  {
+    "route": "/ru/blog/online-magaziis-fasi",
+    "file": "ru/blog/online-magaziis-fasi/index.html",
+    "title": "Сколько стоит создание интернет-магазина в Грузии | webandapp",
+    "description": "Стоимость интернет-магазина: что определяет цену, WooCommerce или индивидуальный магазин, оплата через грузинские банки, доставка, каталог и текущие расходы.",
+    "h1": "Сколько стоит создание интернет-магазина в Грузии",
+    "lang": "ru",
+    "slug": "blog/online-magaziis-fasi",
+    "noindex": false,
+    "schemas": [
+      "ProfessionalService",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "BlogPosting"
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/ru/blog/website-brief",
     "file": "ru/blog/website-brief/index.html",
     "title": "Что подготовить перед заказом сайта | webandapp",
-    "description": "Практический список: цель, аудитория, страницы, контент, функции и доступы.",
+    "description": "Практический список перед заказом сайта: цель, аудитория, список страниц, тексты и фото, функции, интеграции и доступы — что ускоряет проект и уточняет цену.",
     "h1": "Что подготовить перед заказом сайта",
     "lang": "ru",
     "slug": "blog/website-brief",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "BlogPosting"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/ru/blog/online-store-checklist",
     "file": "ru/blog/online-store-checklist/index.html",
     "title": "Что спланировать до создания интернет-магазина | webandapp",
-    "description": "Каталог, оплата, доставка, возвраты и заказы — решения, определяющие объём проекта.",
+    "description": "Чек-лист интернет-магазина: данные товаров, оформление заказа, оплата, доставка, правила и тестирование — решения, определяющие цену и срок магазина.",
     "h1": "Что спланировать до создания интернет-магазина",
     "lang": "ru",
     "slug": "blog/online-store-checklist",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "BlogPosting"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/ru/blog/why-not-google",
     "file": "ru/blog/why-not-google/index.html",
-    "title": "Почему сайт не виден в Google | webandapp",
-    "description": "Индексация, технические проблемы, контент и конкуренция — как исследовать низкую видимость.",
-    "h1": "Почему сайт не виден в Google",
+    "title": "Почему сайт не виден в Google — поиск причины шаг за шагом | webandapp",
+    "description": "Сайт не виден в Google? Индексация, технические барьеры, контент, конкуренция и авторитет — как найти реальную причину с помощью Search Console, шаг за шагом.",
+    "h1": "Почему сайт не виден в Google — поиск причины шаг за шагом",
     "lang": "ru",
     "slug": "blog/why-not-google",
-    "noindex": true,
+    "noindex": false,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList",
       "BlogPosting"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   },
   {
     "route": "/ru/404",
@@ -1048,8 +2066,16 @@
     "slug": "404",
     "noindex": true,
     "schemas": [
+      "ProfessionalService",
+      "WebSite",
       "WebPage",
       "BreadcrumbList"
-    ]
+    ],
+    "languages": [
+      "ka",
+      "en",
+      "ru"
+    ],
+    "lastmod": "2026-09-12"
   }
 ]
